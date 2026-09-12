@@ -1,0 +1,315 @@
+{
+  "slug": "13212-2024",
+  "title": "2024年東京都日野市の不動産投資相場｜物件種別・築年数・面積帯の最新データ解説",
+  "prefecture": "東京都",
+  "city": "日野市",
+  "cityCode": "13212",
+  "year": "2024",
+  "quarter": null,
+  "stats": {
+    "count": 497,
+    "avgTradePrice": 35423944,
+    "minTradePrice": 300000,
+    "maxTradePrice": 330000000,
+    "avgUnitPrice": 221137,
+    "sampleDistricts": [
+      "多摩平",
+      "豊田",
+      "東豊田",
+      "日野本町",
+      "平山",
+      "三沢",
+      "百草",
+      "大字川辺堀之内"
+    ]
+  },
+  "byType": {
+    "宅地(土地と建物)": {
+      "count": 225,
+      "avgTradePrice": 42368444,
+      "minTradePrice": 3000000,
+      "maxTradePrice": 330000000,
+      "avgUnitPrice": null,
+      "sampleDistricts": [
+        "多摩平",
+        "東豊田",
+        "日野本町",
+        "平山",
+        "三沢",
+        "百草",
+        "大字川辺堀之内",
+        "大字日野"
+      ]
+    },
+    "中古マンション等": {
+      "count": 204,
+      "avgTradePrice": 25617647,
+      "minTradePrice": 300000,
+      "maxTradePrice": 65000000,
+      "avgUnitPrice": null,
+      "sampleDistricts": [
+        "多摩平",
+        "東豊田",
+        "三沢",
+        "百草",
+        "日野本町",
+        "旭が丘",
+        "新町",
+        "高幡"
+      ]
+    },
+    "宅地(土地)": {
+      "count": 68,
+      "avgTradePrice": 41864706,
+      "minTradePrice": 1000000,
+      "maxTradePrice": 200000000,
+      "avgUnitPrice": 221137,
+      "sampleDistricts": [
+        "豊田",
+        "日野本町",
+        "平山",
+        "三沢",
+        "百草",
+        "旭が丘",
+        "落川",
+        "大字日野"
+      ]
+    }
+  },
+  "yieldSim": {
+    "targetType": "中古マンション等",
+    "avgTradePrice": 25617647,
+    "assumedMonthlyRent": 128000,
+    "annualRent": 1536000,
+    "yieldPct": "6.0"
+  },
+  "districtRanking": [
+    {
+      "district": "多摩平",
+      "count": 54,
+      "avgTradePrice": 45940741
+    },
+    {
+      "district": "旭が丘",
+      "count": 46,
+      "avgTradePrice": 35465217
+    },
+    {
+      "district": "三沢",
+      "count": 40,
+      "avgTradePrice": 24285000
+    },
+    {
+      "district": "南平",
+      "count": 38,
+      "avgTradePrice": 29555263
+    },
+    {
+      "district": "大字日野",
+      "count": 32,
+      "avgTradePrice": 39221875
+    },
+    {
+      "district": "百草",
+      "count": 29,
+      "avgTradePrice": 18858621
+    },
+    {
+      "district": "万願寺",
+      "count": 24,
+      "avgTradePrice": 42333333
+    },
+    {
+      "district": "東豊田",
+      "count": 22,
+      "avgTradePrice": 33204545
+    }
+  ],
+  "ageBand": {
+    "築5年以内": {
+      "count": 104,
+      "avgTradePrice": 44846154,
+      "minTradePrice": 16000000,
+      "maxTradePrice": 82000000,
+      "avgUnitPrice": null,
+      "sampleDistricts": [
+        "多摩平",
+        "東豊田",
+        "日野本町",
+        "三沢",
+        "百草",
+        "平山",
+        "大字日野",
+        "旭が丘"
+      ]
+    },
+    "築6〜15年": {
+      "count": 58,
+      "avgTradePrice": 42000000,
+      "minTradePrice": 23000000,
+      "maxTradePrice": 65000000,
+      "avgUnitPrice": null,
+      "sampleDistricts": [
+        "多摩平",
+        "東豊田",
+        "大字川辺堀之内",
+        "日野本町",
+        "旭が丘",
+        "南平",
+        "大坂上",
+        "万願寺"
+      ]
+    },
+    "築16〜25年": {
+      "count": 89,
+      "avgTradePrice": 36853933,
+      "minTradePrice": 16000000,
+      "maxTradePrice": 280000000,
+      "avgUnitPrice": null,
+      "sampleDistricts": [
+        "多摩平",
+        "日野本町",
+        "大字川辺堀之内",
+        "旭が丘",
+        "新町",
+        "高幡",
+        "石田",
+        "大字日野"
+      ]
+    },
+    "築26年以上": {
+      "count": 168,
+      "avgTradePrice": 23555952,
+      "minTradePrice": 300000,
+      "maxTradePrice": 330000000,
+      "avgUnitPrice": null,
+      "sampleDistricts": [
+        "東豊田",
+        "日野本町",
+        "平山",
+        "三沢",
+        "百草",
+        "多摩平",
+        "旭が丘",
+        "新町"
+      ]
+    }
+  },
+  "areaBand": {
+    "〜30㎡(ワンルーム)": {
+      "count": 11,
+      "avgTradePrice": 3963636,
+      "minTradePrice": 1800000,
+      "maxTradePrice": 6600000,
+      "avgUnitPrice": null,
+      "sampleDistricts": [
+        "東豊田",
+        "旭が丘",
+        "高幡",
+        "大字日野",
+        "南平",
+        "多摩平"
+      ]
+    },
+    "30〜50㎡(コンパクト)": {
+      "count": 38,
+      "avgTradePrice": 12521053,
+      "minTradePrice": 300000,
+      "maxTradePrice": 36000000,
+      "avgUnitPrice": 170000,
+      "sampleDistricts": [
+        "東豊田",
+        "平山",
+        "三沢",
+        "百草",
+        "旭が丘",
+        "高幡",
+        "多摩平",
+        "新町"
+      ]
+    },
+    "50〜80㎡(ファミリー)": {
+      "count": 155,
+      "avgTradePrice": 28095484,
+      "minTradePrice": 3000000,
+      "maxTradePrice": 65000000,
+      "avgUnitPrice": 151000,
+      "sampleDistricts": [
+        "多摩平",
+        "東豊田",
+        "三沢",
+        "百草",
+        "旭が丘",
+        "新町",
+        "大字日野",
+        "神明"
+      ]
+    },
+    "80㎡〜(広め)": {
+      "count": 293,
+      "avgTradePrice": 43452218,
+      "minTradePrice": 1000000,
+      "maxTradePrice": 330000000,
+      "avgUnitPrice": 225223,
+      "sampleDistricts": [
+        "多摩平",
+        "豊田",
+        "東豊田",
+        "日野本町",
+        "平山",
+        "三沢",
+        "百草",
+        "大字川辺堀之内"
+      ]
+    }
+  },
+  "priceTrend": {
+    "trend": [
+      {
+        "year": 2021,
+        "count": 237,
+        "avgTradePrice": 21949789
+      },
+      {
+        "year": 2022,
+        "count": 202,
+        "avgTradePrice": 21898020
+      },
+      {
+        "year": 2023,
+        "count": 215,
+        "avgTradePrice": 25357209
+      },
+      {
+        "year": 2024,
+        "count": 204,
+        "avgTradePrice": 25617647
+      }
+    ],
+    "firstYear": 2021,
+    "lastYear": 2024,
+    "changePct": "16.7"
+  },
+  "lowEntry": {
+    "source": "面積帯",
+    "label": "〜30㎡(ワンルーム)",
+    "count": 11,
+    "avgTradePrice": 3963636
+  },
+  "heroImage": {
+    "url": "https://images.pexels.com/photos/10901924/pexels-photo-10901924.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "日野市のイメージ写真(実際の物件ではありません)",
+    "photographer": "旭 吉田",
+    "photographerUrl": "https://www.pexels.com/@1073305",
+    "pageUrl": "https://www.pexels.com/photo/utility-poles-beside-the-concrete-houses-10901924/"
+  },
+  "sections": {
+    "overview": "国土交通省の公式データによると、2024年の東京都日野市における不動産取引の全体集計は、取引件数497件、平均取引価格3,542万円となっています。物件種別ごとの内訳を見ると、宅地(土地と建物)が225件で平均4,237万円、中古マンション等が204件で平均2,562万円、宅地(土地)が68件で平均4,186万円(㎡単価平均221,137円)を記録しています。このように、戸建てや土地取引は4,000万円を超える水準である一方、中古マンション等は平均2,562万円と価格帯が大きく異なります。投資を検討する際は種別ごとの違いを把握することが大切です。",
+    "propertyTrend": "日野市の取引動向を見ると、人気地区ランキングでは1位の多摩平(54件、平均4,594万円)をはじめ、2位の旭が丘(46件、平均3,547万円)、3位の三沢(40件、平均2,429万円)などが上位を占めています。築年数帯別では、築26年以上が168件(平均2,356万円)と最も多く、次いで築5年以内が104件(平均4,485万円)となっています。面積帯別では80㎡〜が293件(平均4,345万円)と主流で、ファミリー層向け物件が中心です。なお、2021年から2024年にかけて、平均取引価格は+16.7%上昇している(年別推移: 2021年=2,195万円、2022年=2,190万円、2023年=2,536万円、2024年=2,562万円)。築古物件や広めの区画を中心に幅広い需要が取引データから伺えます。",
+    "yieldSimulation": "日野市でのマンション投資における収支イメージとして、公式データに基づく試算を紹介します。対象種別「中古マンション等」の平均取引価格2,562万円を基に、仮に月額家賃を価格の0.5%(128,000円)と仮定すると、年間家賃収入は1,536,000円となり、表面利回りは約6.0%になる(1,536,000 ÷ 25,617,647 × 100 ≒ 6.0%)。なお、この試算は一定の家賃を想定した一例であり、実際の賃料や利回りを保証するものではありません。築年数や立地ごとの実効賃料を精査することが重要です。",
+    "lowEntryPitch": "総額を抑えて不動産投資を始めたい方にとって、物件の規模や築年数は重要な指標です。面積帯「〜30㎡(ワンルーム)」は11件の取引があり、平均取引価格は396万円と、他の区分より総投資額を抑えやすい水準になっている(利回り%が他区分より高いという意味ではなく、あくまで総額が低いという事実)。また、築26年以上の物件も平均2,356万円となっており、自己資金に合わせた物件選択が可能です。",
+    "agentComment": "宅地建物取引士として日野市の市場データを分析すると、多摩平などの人気エリアを中心に堅調な取引が行われている印象を受けます。取引データでは築26年以上の物件取引も一定数確認されており、初期費用を抑えた投資を検討する際の選択肢となり得ると感じています。管理状態等の確認が実務上重要になると考えています。",
+    "beginnerTips": "日野市で不動産投資を始める初心者は、まず希望する物件種別や面積帯ごとの価格相場を十分に理解することが大切です。広めの物件やファミリー向け需要が多い一方で、小規模なワンルーム物件は取引件数が限られている点に注意が必要です。また、平均取引価格の上昇傾向などのデータを確認しつつも、将来の賃貸需要やリフォーム費用、管理費等の経費を見込んだ慎重な資金計画を立てることが推奨されます。周辺駅へのアクセスや住環境を現地でしっかりと確認しましょう。"
+  },
+  "generatedAt": "2026-09-12T04:07:20.143Z"
+}

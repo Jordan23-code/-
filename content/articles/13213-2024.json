@@ -1,0 +1,312 @@
+{
+  "slug": "13213-2024",
+  "title": "東京都東村山市の不動産投資相場｜2024年データから見る取引傾向と価格推移",
+  "prefecture": "東京都",
+  "city": "東村山市",
+  "cityCode": "13213",
+  "year": "2024",
+  "quarter": null,
+  "stats": {
+    "count": 512,
+    "avgTradePrice": 37737500,
+    "minTradePrice": 4000000,
+    "maxTradePrice": 1100000000,
+    "avgUnitPrice": 212041,
+    "sampleDistricts": [
+      "多摩湖町",
+      "恩多町",
+      "青葉町",
+      "秋津町",
+      "栄町",
+      "本町",
+      "廻田町",
+      "久米川町"
+    ]
+  },
+  "byType": {
+    "宅地(土地と建物)": {
+      "count": 266,
+      "avgTradePrice": 40783083,
+      "minTradePrice": 4000000,
+      "maxTradePrice": 230000000,
+      "avgUnitPrice": null,
+      "sampleDistricts": [
+        "多摩湖町",
+        "恩多町",
+        "青葉町",
+        "秋津町",
+        "栄町",
+        "本町",
+        "廻田町",
+        "久米川町"
+      ]
+    },
+    "宅地(土地)": {
+      "count": 74,
+      "avgTradePrice": 54785135,
+      "minTradePrice": 4000000,
+      "maxTradePrice": 1100000000,
+      "avgUnitPrice": 212041,
+      "sampleDistricts": [
+        "恩多町",
+        "栄町",
+        "本町",
+        "久米川町",
+        "諏訪町",
+        "野口町",
+        "萩山町",
+        "富士見町"
+      ]
+    },
+    "中古マンション等": {
+      "count": 172,
+      "avgTradePrice": 25693023,
+      "minTradePrice": 5500000,
+      "maxTradePrice": 53000000,
+      "avgUnitPrice": null,
+      "sampleDistricts": [
+        "恩多町",
+        "青葉町",
+        "秋津町",
+        "栄町",
+        "本町",
+        "野口町",
+        "萩山町",
+        "富士見町"
+      ]
+    }
+  },
+  "yieldSim": {
+    "targetType": "中古マンション等",
+    "avgTradePrice": 25693023,
+    "assumedMonthlyRent": 128000,
+    "annualRent": 1536000,
+    "yieldPct": "6.0"
+  },
+  "districtRanking": [
+    {
+      "district": "栄町",
+      "count": 65,
+      "avgTradePrice": 33976923
+    },
+    {
+      "district": "富士見町",
+      "count": 61,
+      "avgTradePrice": 30363934
+    },
+    {
+      "district": "久米川町",
+      "count": 59,
+      "avgTradePrice": 44237288
+    },
+    {
+      "district": "萩山町",
+      "count": 52,
+      "avgTradePrice": 32496154
+    },
+    {
+      "district": "秋津町",
+      "count": 48,
+      "avgTradePrice": 46687500
+    },
+    {
+      "district": "恩多町",
+      "count": 47,
+      "avgTradePrice": 66629787
+    },
+    {
+      "district": "野口町",
+      "count": 39,
+      "avgTradePrice": 37500000
+    },
+    {
+      "district": "青葉町",
+      "count": 32,
+      "avgTradePrice": 26006250
+    }
+  ],
+  "ageBand": {
+    "築5年以内": {
+      "count": 137,
+      "avgTradePrice": 42430657,
+      "minTradePrice": 17000000,
+      "maxTradePrice": 79000000,
+      "avgUnitPrice": null,
+      "sampleDistricts": [
+        "恩多町",
+        "青葉町",
+        "秋津町",
+        "栄町",
+        "本町",
+        "諏訪町",
+        "野口町",
+        "萩山町"
+      ]
+    },
+    "築6〜15年": {
+      "count": 72,
+      "avgTradePrice": 39791667,
+      "minTradePrice": 25000000,
+      "maxTradePrice": 230000000,
+      "avgUnitPrice": null,
+      "sampleDistricts": [
+        "多摩湖町",
+        "恩多町",
+        "栄町",
+        "廻田町",
+        "秋津町",
+        "久米川町",
+        "萩山町",
+        "富士見町"
+      ]
+    },
+    "築16〜25年": {
+      "count": 73,
+      "avgTradePrice": 30410959,
+      "minTradePrice": 9000000,
+      "maxTradePrice": 47000000,
+      "avgUnitPrice": null,
+      "sampleDistricts": [
+        "青葉町",
+        "栄町",
+        "本町",
+        "恩多町",
+        "秋津町",
+        "野口町",
+        "萩山町",
+        "富士見町"
+      ]
+    },
+    "築26年以上": {
+      "count": 140,
+      "avgTradePrice": 25767857,
+      "minTradePrice": 4000000,
+      "maxTradePrice": 230000000,
+      "avgUnitPrice": null,
+      "sampleDistricts": [
+        "多摩湖町",
+        "恩多町",
+        "青葉町",
+        "秋津町",
+        "栄町",
+        "本町",
+        "廻田町",
+        "萩山町"
+      ]
+    }
+  },
+  "areaBand": {
+    "〜30㎡(ワンルーム)": {
+      "count": 7,
+      "avgTradePrice": 8971429,
+      "minTradePrice": 5500000,
+      "maxTradePrice": 23000000,
+      "avgUnitPrice": null,
+      "sampleDistricts": [
+        "栄町",
+        "本町",
+        "萩山町"
+      ]
+    },
+    "30〜50㎡(コンパクト)": {
+      "count": 30,
+      "avgTradePrice": 13546667,
+      "minTradePrice": 4000000,
+      "maxTradePrice": 47000000,
+      "avgUnitPrice": 245000,
+      "sampleDistricts": [
+        "本町",
+        "栄町",
+        "富士見町",
+        "美住町",
+        "青葉町",
+        "廻田町",
+        "野口町",
+        "萩山町"
+      ]
+    },
+    "50〜80㎡(ファミリー)": {
+      "count": 149,
+      "avgTradePrice": 27040940,
+      "minTradePrice": 4000000,
+      "maxTradePrice": 76000000,
+      "avgUnitPrice": 157833,
+      "sampleDistricts": [
+        "恩多町",
+        "青葉町",
+        "秋津町",
+        "栄町",
+        "本町",
+        "野口町",
+        "萩山町",
+        "富士見町"
+      ]
+    },
+    "80㎡〜(広め)": {
+      "count": 326,
+      "avgTradePrice": 45470245,
+      "minTradePrice": 6800000,
+      "maxTradePrice": 1100000000,
+      "avgUnitPrice": 215970,
+      "sampleDistricts": [
+        "多摩湖町",
+        "恩多町",
+        "青葉町",
+        "秋津町",
+        "栄町",
+        "本町",
+        "廻田町",
+        "久米川町"
+      ]
+    }
+  },
+  "priceTrend": {
+    "trend": [
+      {
+        "year": 2021,
+        "count": 206,
+        "avgTradePrice": 21599029
+      },
+      {
+        "year": 2022,
+        "count": 225,
+        "avgTradePrice": 23664889
+      },
+      {
+        "year": 2023,
+        "count": 199,
+        "avgTradePrice": 24570854
+      },
+      {
+        "year": 2024,
+        "count": 172,
+        "avgTradePrice": 25693023
+      }
+    ],
+    "firstYear": 2021,
+    "lastYear": 2024,
+    "changePct": "19.0"
+  },
+  "lowEntry": {
+    "source": "面積帯",
+    "label": "30〜50㎡(コンパクト)",
+    "count": 30,
+    "avgTradePrice": 13546667
+  },
+  "heroImage": {
+    "url": "https://images.pexels.com/photos/10901924/pexels-photo-10901924.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "東村山市のイメージ写真(実際の物件ではありません)",
+    "photographer": "旭 吉田",
+    "photographerUrl": "https://www.pexels.com/@1073305",
+    "pageUrl": "https://www.pexels.com/photo/utility-poles-beside-the-concrete-houses-10901924/"
+  },
+  "sections": {
+    "overview": "2024年の東京都東村山市における不動産取引は全512件、平均取引価格は3,774万円となっています。物件種別ごとの内訳を見ると、最も取引数が多いのは「宅地(土地と建物)」の266件で平均価格は4,078万円です。次いで「中古マンション等」が172件取引されており、平均価格は2,569万円となっています。なお、「宅地(土地)」は74件取引され平均価格は5,479万円で、平均㎡単価は212,041円です(宅地(土地と建物)および中古マンション等では㎡単価平均データが記録されていません)。種別ごとに価格帯や取引規模が異なることが公式データから窺えます。",
+    "propertyTrend": "人気地区ランキングでは、1位の栄町(65件、平均3,398万円)、2位の富士見町(61件、平均3,036万円)、3位の久米川町(59件、平均4,424万円)を中心に活発な取引が行われています。築年数帯では、築5年以内が137件(平均4,243万円)、築26年以上が140件(平均2,577万円)と、築浅と築古の双方に取引が分散しています。面積帯別では、80㎡〜(広め)が326件(平均4,547万円)と過半数を占めています。また、複数年の価格推移を見ると、2021年から2024年にかけて、平均取引価格は+19.0%上昇している(年別推移: 2021年=2,160万円、2022年=2,366万円、2023年=2,457万円、2024年=2,569万円)という事実が確認できます。",
+    "yieldSimulation": "投資シミュレーションの一例として利回り試算をご紹介します。対象種別「中古マンション等」の平均取引価格2,569万円を基に、仮に月額家賃を価格の0.5%(128,000円)と仮定すると、年間家賃収入は1,536,000円となり、表面利回りは約6.0%になる(1,536,000 ÷ 25,693,023 × 100 ≒ 6.0%)。なお、この試算は一律の想定家賃に基づいたあくまで一例であり、実際の利回りを保証するものではありません。",
+    "lowEntryPitch": "初期投資を抑えて不動産投資を始めたい方にとって、物件の総投資額の低さは重要なポイントです。面積帯「30〜50㎡(コンパクト)」は30件の取引があり、平均取引価格は1,355万円と、他の区分より総投資額を抑えやすい水準になっている(利回り%が他区分より高いという意味ではなく、あくまで総額が低いという事実)。資金計画に合わせた検討が可能です。",
+    "agentComment": "宅地建物取引士として東村山市のデータを分析すると、築26年以上の物件が140件取引されており、平均価格も2,577万円に抑えられている点に実務上の関心を寄せています。総投資額を低く抑えたい投資家にとって選択肢が存在することを確認しています。個別物件の状態を見極めることが大切だと感じています。",
+    "beginnerTips": "東村山市で不動産投資を検討する初心者の方は、まず種別ごとの特徴や総投資額の違いをよく確認することが重要です。特に中古マンションやコンパクト物件を検討する際は、物件の修繕履歴や管理体制、周辺環境を含めた賃貸需要の有無を慎重に調査する必要があります。利回り試算は一定の仮定に基づくシミュレーションに過ぎないため、実際の管理費や修繕積立金、空室リスクなどの諸条件を加味して総合的に確認する観点が求められます。"
+  },
+  "generatedAt": "2026-09-12T04:07:42.810Z"
+}

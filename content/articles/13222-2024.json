@@ -1,0 +1,310 @@
+{
+  "slug": "13222-2024",
+  "title": "2024年東京都東久留米市の不動産投資相場を解説！中古マンションや築古相場データ",
+  "prefecture": "東京都",
+  "city": "東久留米市",
+  "cityCode": "13222",
+  "year": "2024",
+  "quarter": null,
+  "stats": {
+    "count": 371,
+    "avgTradePrice": 34256873,
+    "minTradePrice": 1300000,
+    "maxTradePrice": 470000000,
+    "avgUnitPrice": 244235,
+    "sampleDistricts": [
+      "下里",
+      "神宝町",
+      "浅間町",
+      "大門町",
+      "中央町",
+      "南町",
+      "ひばりが丘団地",
+      "学園町"
+    ]
+  },
+  "byType": {
+    "宅地(土地と建物)": {
+      "count": 205,
+      "avgTradePrice": 43850732,
+      "minTradePrice": 6500000,
+      "maxTradePrice": 470000000,
+      "avgUnitPrice": null,
+      "sampleDistricts": [
+        "下里",
+        "神宝町",
+        "浅間町",
+        "中央町",
+        "南町",
+        "ひばりが丘団地",
+        "学園町",
+        "幸町"
+      ]
+    },
+    "宅地(土地)": {
+      "count": 34,
+      "avgTradePrice": 32976471,
+      "minTradePrice": 4000000,
+      "maxTradePrice": 100000000,
+      "avgUnitPrice": 244235,
+      "sampleDistricts": [
+        "下里",
+        "学園町",
+        "滝山",
+        "野火止",
+        "南沢",
+        "本町",
+        "前沢",
+        "幸町"
+      ]
+    },
+    "中古マンション等": {
+      "count": 132,
+      "avgTradePrice": 19687121,
+      "minTradePrice": 1300000,
+      "maxTradePrice": 60000000,
+      "avgUnitPrice": null,
+      "sampleDistricts": [
+        "神宝町",
+        "大門町",
+        "ひばりが丘団地",
+        "南町",
+        "学園町",
+        "滝山",
+        "野火止",
+        "南沢"
+      ]
+    }
+  },
+  "yieldSim": {
+    "targetType": "中古マンション等",
+    "avgTradePrice": 19687121,
+    "assumedMonthlyRent": 98000,
+    "annualRent": 1176000,
+    "yieldPct": "6.0"
+  },
+  "districtRanking": [
+    {
+      "district": "滝山",
+      "count": 68,
+      "avgTradePrice": 11629412
+    },
+    {
+      "district": "本町",
+      "count": 32,
+      "avgTradePrice": 48656250
+    },
+    {
+      "district": "南沢",
+      "count": 29,
+      "avgTradePrice": 46137931
+    },
+    {
+      "district": "下里",
+      "count": 26,
+      "avgTradePrice": 30923077
+    },
+    {
+      "district": "前沢",
+      "count": 24,
+      "avgTradePrice": 50875000
+    },
+    {
+      "district": "学園町",
+      "count": 21,
+      "avgTradePrice": 48390476
+    },
+    {
+      "district": "中央町",
+      "count": 19,
+      "avgTradePrice": 34042105
+    },
+    {
+      "district": "柳窪",
+      "count": 18,
+      "avgTradePrice": 28988889
+    }
+  ],
+  "ageBand": {
+    "築5年以内": {
+      "count": 93,
+      "avgTradePrice": 48021505,
+      "minTradePrice": 29000000,
+      "maxTradePrice": 87000000,
+      "avgUnitPrice": null,
+      "sampleDistricts": [
+        "下里",
+        "神宝町",
+        "浅間町",
+        "中央町",
+        "南町",
+        "学園町",
+        "南沢",
+        "金山町"
+      ]
+    },
+    "築6〜15年": {
+      "count": 34,
+      "avgTradePrice": 40911765,
+      "minTradePrice": 28000000,
+      "maxTradePrice": 60000000,
+      "avgUnitPrice": null,
+      "sampleDistricts": [
+        "浅間町",
+        "中央町",
+        "ひばりが丘団地",
+        "南町",
+        "南沢",
+        "八幡町",
+        "氷川台",
+        "下里"
+      ]
+    },
+    "築16〜25年": {
+      "count": 49,
+      "avgTradePrice": 33408163,
+      "minTradePrice": 15000000,
+      "maxTradePrice": 62000000,
+      "avgUnitPrice": null,
+      "sampleDistricts": [
+        "下里",
+        "神宝町",
+        "浅間町",
+        "南沢",
+        "上の原",
+        "柳窪",
+        "新川町",
+        "小山"
+      ]
+    },
+    "築26年以上": {
+      "count": 150,
+      "avgTradePrice": 24392667,
+      "minTradePrice": 1300000,
+      "maxTradePrice": 470000000,
+      "avgUnitPrice": null,
+      "sampleDistricts": [
+        "大門町",
+        "中央町",
+        "南町",
+        "学園町",
+        "幸町",
+        "滝山",
+        "野火止",
+        "本町"
+      ]
+    }
+  },
+  "areaBand": {
+    "〜30㎡(ワンルーム)": {
+      "count": 2,
+      "avgTradePrice": 9300000,
+      "minTradePrice": 3600000,
+      "maxTradePrice": 15000000,
+      "avgUnitPrice": null,
+      "sampleDistricts": [
+        "新川町",
+        "東本町"
+      ]
+    },
+    "30〜50㎡(コンパクト)": {
+      "count": 33,
+      "avgTradePrice": 7636364,
+      "minTradePrice": 1700000,
+      "maxTradePrice": 19000000,
+      "avgUnitPrice": 110000,
+      "sampleDistricts": [
+        "南町",
+        "滝山",
+        "東本町",
+        "幸町",
+        "柳窪",
+        "本町",
+        "中央町"
+      ]
+    },
+    "50〜80㎡(ファミリー)": {
+      "count": 110,
+      "avgTradePrice": 22418182,
+      "minTradePrice": 1300000,
+      "maxTradePrice": 60000000,
+      "avgUnitPrice": 184750,
+      "sampleDistricts": [
+        "神宝町",
+        "大門町",
+        "ひばりが丘団地",
+        "学園町",
+        "滝山",
+        "野火止",
+        "南沢",
+        "金山町"
+      ]
+    },
+    "80㎡〜(広め)": {
+      "count": 226,
+      "avgTradePrice": 44126991,
+      "minTradePrice": 5000000,
+      "maxTradePrice": 470000000,
+      "avgUnitPrice": 257069,
+      "sampleDistricts": [
+        "下里",
+        "神宝町",
+        "浅間町",
+        "中央町",
+        "南町",
+        "ひばりが丘団地",
+        "学園町",
+        "幸町"
+      ]
+    }
+  },
+  "priceTrend": {
+    "trend": [
+      {
+        "year": 2021,
+        "count": 128,
+        "avgTradePrice": 19842188
+      },
+      {
+        "year": 2022,
+        "count": 147,
+        "avgTradePrice": 21862449
+      },
+      {
+        "year": 2023,
+        "count": 126,
+        "avgTradePrice": 20532540
+      },
+      {
+        "year": 2024,
+        "count": 132,
+        "avgTradePrice": 19687121
+      }
+    ],
+    "firstYear": 2021,
+    "lastYear": 2024,
+    "changePct": "-0.8"
+  },
+  "lowEntry": {
+    "source": "面積帯",
+    "label": "30〜50㎡(コンパクト)",
+    "count": 33,
+    "avgTradePrice": 7636364
+  },
+  "heroImage": {
+    "url": "https://images.pexels.com/photos/33016323/pexels-photo-33016323.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "東久留米市のイメージ写真(実際の物件ではありません)",
+    "photographer": "kazuyoshi sakamoto",
+    "photographerUrl": "https://www.pexels.com/@kazu1000",
+    "pageUrl": "https://www.pexels.com/photo/sunny-suburban-street-with-blue-sky-scene-33016323/"
+  },
+  "sections": {
+    "overview": "2024年の東京都東久留米市における不動産取引データによると、全体の取引件数は371件、平均取引価格は3,426万円です。種別ごとに見ると、宅地(土地と建物)が205件で平均4,385万円、中古マンション等が132件で平均1,969万円、宅地(土地)が34件で平均3,298万円となっています。なお、宅地(土地と建物)や中古マンション等では㎡単価平均データが記録されていませんが、宅地(土地)の㎡単価平均は244,235円です。戸建て中心の宅地と中古マンション等で価格帯に違いが見られることがデータから窺えます。",
+    "propertyTrend": "東久留米市の取引データを分析すると、人気地区1位は滝山（68件、平均1,163万円）、2位は本町（32件、平均4,866万円）、3位は南沢（29件、平均4,614万円）となっています。築年数帯では築26年以上が150件（平均2,439万円）と最も多く、築5年以内が93件（平均4,802万円）と続きます。面積帯では80㎡〜(広め)が226件（平均4,413万円）、50〜80㎡(ファミリー)が110件（平均2,242万円）と広めの物件が中心です。なお、2021年から2024年にかけて、平均取引価格は-0.8%下落している(年別推移: 2021年=1,984万円、2022年=2,186万円、2023年=2,053万円、2024年=1,969万円)。",
+    "yieldSimulation": "東久留米市で中古マンション投資を検討する際の収益イメージとして、公式データに基づく試算をご紹介します。対象種別「中古マンション等」の平均取引価格1,969万円を基に、仮に月額家賃を価格の0.5%(98,000円)と仮定すると、年間家賃収入は1,176,000円となり、表面利回りは約6.0%になる(1,176,000 ÷ 19,687,121 × 100 ≒ 6.0%)。なお、このシミュレーションは一律の家賃想定に基づく一例であり、実際の賃貸条件や諸経費により収益状況は異なります。",
+    "lowEntryPitch": "総額を抑えて不動産投資をスタートしたい投資家の方には、特定の面積帯に着目するのが効果的です。面積帯「30〜50㎡(コンパクト)」は33件の取引があり、平均取引価格は764万円と、他の区分より総投資額を抑えやすい水準になっている(利回り%が他区分より高いという意味ではなく、あくまで総額が低いという事実)。自己資金に応じた物件選定の目安となります。",
+    "agentComment": "宅地建物取引士としてデータを精査すると、東久留米市では滝山地区のように平均価格1,163万円と抑えられたエリアがある一方、全体として築26年以上の物件取引が150件と大きな割合を占めている状況を確認しています。総投資額を抑えた物件検討時には、建物状態や立地特性の慎重な確認が重要になると感じています。",
+    "beginnerTips": "東久留米市で不動産投資を検討する初心者は、地区ごとの価格帯の違いや交通アクセスなどの立地条件をしっかりと確認することが大切です。特に人気1位の滝山と2位の本町では平均価格に大きな差があるため、ターゲット層の賃貸需要と照らし合わせる必要があります。また、築26年以上の物件が数多く取引されている地域でもあるため、購入前に過去の修繕履歴や今後のメンテナンス費用を把握しておくことがポイントです。"
+  },
+  "generatedAt": "2026-09-12T04:09:00.111Z"
+}

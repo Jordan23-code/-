@@ -1,0 +1,316 @@
+{
+  "slug": "13229-2024",
+  "title": "【2024年最新】東京都西東京市の不動産投資相場データと取引傾向を徹底解説",
+  "prefecture": "東京都",
+  "city": "西東京市",
+  "cityCode": "13229",
+  "year": "2024",
+  "quarter": null,
+  "stats": {
+    "count": 662,
+    "avgTradePrice": 52051360,
+    "minTradePrice": 2000000,
+    "maxTradePrice": 2000000000,
+    "avgUnitPrice": 345068,
+    "sampleDistricts": [
+      "栄町",
+      "下保谷",
+      "住吉町",
+      "田無町",
+      "中町",
+      "東町",
+      "ひばりが丘北",
+      "保谷町"
+    ]
+  },
+  "byType": {
+    "宅地(土地と建物)": {
+      "count": 281,
+      "avgTradePrice": 64395374,
+      "minTradePrice": 2000000,
+      "maxTradePrice": 2000000000,
+      "avgUnitPrice": null,
+      "sampleDistricts": [
+        "栄町",
+        "下保谷",
+        "住吉町",
+        "田無町",
+        "東町",
+        "ひばりが丘北",
+        "保谷町",
+        "柳沢"
+      ]
+    },
+    "宅地(土地)": {
+      "count": 88,
+      "avgTradePrice": 56375000,
+      "minTradePrice": 4000000,
+      "maxTradePrice": 460000000,
+      "avgUnitPrice": 345068,
+      "sampleDistricts": [
+        "栄町",
+        "下保谷",
+        "住吉町",
+        "中町",
+        "保谷町",
+        "柳沢",
+        "泉町",
+        "芝久保町"
+      ]
+    },
+    "中古マンション等": {
+      "count": 293,
+      "avgTradePrice": 38914334,
+      "minTradePrice": 5000000,
+      "maxTradePrice": 90000000,
+      "avgUnitPrice": null,
+      "sampleDistricts": [
+        "下保谷",
+        "住吉町",
+        "田無町",
+        "東町",
+        "保谷町",
+        "ひばりが丘北",
+        "柳沢",
+        "泉町"
+      ]
+    }
+  },
+  "yieldSim": {
+    "targetType": "中古マンション等",
+    "avgTradePrice": 38914334,
+    "assumedMonthlyRent": 195000,
+    "annualRent": 2340000,
+    "yieldPct": "6.0"
+  },
+  "districtRanking": [
+    {
+      "district": "田無町",
+      "count": 70,
+      "avgTradePrice": 44782857
+    },
+    {
+      "district": "芝久保町",
+      "count": 65,
+      "avgTradePrice": 47564615
+    },
+    {
+      "district": "谷戸町",
+      "count": 63,
+      "avgTradePrice": 49095238
+    },
+    {
+      "district": "向台町",
+      "count": 50,
+      "avgTradePrice": 51162000
+    },
+    {
+      "district": "ひばりが丘",
+      "count": 42,
+      "avgTradePrice": 45357143
+    },
+    {
+      "district": "東町",
+      "count": 33,
+      "avgTradePrice": 46181818
+    },
+    {
+      "district": "住吉町",
+      "count": 32,
+      "avgTradePrice": 49562500
+    },
+    {
+      "district": "富士町",
+      "count": 32,
+      "avgTradePrice": 55015625
+    }
+  ],
+  "ageBand": {
+    "築5年以内": {
+      "count": 125,
+      "avgTradePrice": 72280000,
+      "minTradePrice": 21000000,
+      "maxTradePrice": 2000000000,
+      "avgUnitPrice": null,
+      "sampleDistricts": [
+        "下保谷",
+        "住吉町",
+        "田無町",
+        "東町",
+        "ひばりが丘北",
+        "保谷町",
+        "柳沢",
+        "泉町"
+      ]
+    },
+    "築6〜15年": {
+      "count": 125,
+      "avgTradePrice": 49088000,
+      "minTradePrice": 17000000,
+      "maxTradePrice": 80000000,
+      "avgUnitPrice": null,
+      "sampleDistricts": [
+        "栄町",
+        "住吉町",
+        "田無町",
+        "ひばりが丘北",
+        "保谷町",
+        "向台町",
+        "泉町",
+        "新町"
+      ]
+    },
+    "築16〜25年": {
+      "count": 129,
+      "avgTradePrice": 45069767,
+      "minTradePrice": 15000000,
+      "maxTradePrice": 370000000,
+      "avgUnitPrice": null,
+      "sampleDistricts": [
+        "下保谷",
+        "住吉町",
+        "東町",
+        "ひばりが丘北",
+        "柳沢",
+        "泉町",
+        "芝久保町",
+        "西原町"
+      ]
+    },
+    "築26年以上": {
+      "count": 165,
+      "avgTradePrice": 42884848,
+      "minTradePrice": 2000000,
+      "maxTradePrice": 1200000000,
+      "avgUnitPrice": null,
+      "sampleDistricts": [
+        "下保谷",
+        "田無町",
+        "東町",
+        "保谷町",
+        "中町",
+        "泉町",
+        "芝久保町",
+        "西原町"
+      ]
+    }
+  },
+  "areaBand": {
+    "〜30㎡(ワンルーム)": {
+      "count": 20,
+      "avgTradePrice": 16845000,
+      "minTradePrice": 5000000,
+      "maxTradePrice": 25000000,
+      "avgUnitPrice": null,
+      "sampleDistricts": [
+        "田無町",
+        "東伏見",
+        "東町",
+        "谷戸町",
+        "ひばりが丘",
+        "ひばりが丘北",
+        "西原町"
+      ]
+    },
+    "30〜50㎡(コンパクト)": {
+      "count": 24,
+      "avgTradePrice": 17916667,
+      "minTradePrice": 5000000,
+      "maxTradePrice": 46000000,
+      "avgUnitPrice": null,
+      "sampleDistricts": [
+        "田無町",
+        "泉町",
+        "新町",
+        "東伏見",
+        "谷戸町",
+        "富士町",
+        "保谷町",
+        "芝久保町"
+      ]
+    },
+    "50〜80㎡(ファミリー)": {
+      "count": 273,
+      "avgTradePrice": 39328205,
+      "minTradePrice": 2000000,
+      "maxTradePrice": 78000000,
+      "avgUnitPrice": 396250,
+      "sampleDistricts": [
+        "栄町",
+        "下保谷",
+        "住吉町",
+        "田無町",
+        "東町",
+        "保谷町",
+        "柳沢",
+        "ひばりが丘北"
+      ]
+    },
+    "80㎡〜(広め)": {
+      "count": 345,
+      "avgTradePrice": 66534783,
+      "minTradePrice": 4000000,
+      "maxTradePrice": 2000000000,
+      "avgUnitPrice": 339950,
+      "sampleDistricts": [
+        "栄町",
+        "下保谷",
+        "住吉町",
+        "田無町",
+        "中町",
+        "東町",
+        "ひばりが丘北",
+        "保谷町"
+      ]
+    }
+  },
+  "priceTrend": {
+    "trend": [
+      {
+        "year": 2021,
+        "count": 318,
+        "avgTradePrice": 33742453
+      },
+      {
+        "year": 2022,
+        "count": 314,
+        "avgTradePrice": 35725159
+      },
+      {
+        "year": 2023,
+        "count": 309,
+        "avgTradePrice": 36743689
+      },
+      {
+        "year": 2024,
+        "count": 293,
+        "avgTradePrice": 38914334
+      }
+    ],
+    "firstYear": 2021,
+    "lastYear": 2024,
+    "changePct": "15.3"
+  },
+  "lowEntry": {
+    "source": "面積帯",
+    "label": "〜30㎡(ワンルーム)",
+    "count": 20,
+    "avgTradePrice": 16845000
+  },
+  "heroImage": {
+    "url": "https://images.pexels.com/photos/33016323/pexels-photo-33016323.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "西東京市のイメージ写真(実際の物件ではありません)",
+    "photographer": "kazuyoshi sakamoto",
+    "photographerUrl": "https://www.pexels.com/@kazu1000",
+    "pageUrl": "https://www.pexels.com/photo/sunny-suburban-street-with-blue-sky-scene-33016323/"
+  },
+  "sections": {
+    "overview": "2024年の東京都西東京市における不動産取引の全体件数は662件、平均取引価格は5,205万円となっています。物件種別ごとの内訳を見ると、取引件数が最も多いのは「中古マンション等」で293件、平均取引価格は3,891万円です。次いで「宅地(土地と建物)」が281件で平均6,440万円、「宅地(土地)」が88件で平均5,638万円（平均㎡単価345,068円）を記録しています。このように種別ごとに平均価格帯や取引規模が異なるため、投資目的に応じて各区分の特徴を把握することが大切です。（※中古マンション等および宅地(土地と建物)では㎡単価平均データが記録されていません）",
+    "propertyTrend": "人気地区ランキングでは1位の田無町（70件、平均4,478万円）をはじめ、芝久保町（65件、平均4,756万円）、谷戸町（63件、平均4,910万円）などで活発な取引が見られます。築年数帯では築26年以上が165件（平均4,288万円）と最多で、築5年以内も125件（平均7,228万円）取引されています。面積帯では80㎡〜が345件（平均6,653万円）、50〜80㎡が273件（平均3,933万円）と大半を占めます。なお、複数年の価格推移として、2021年から2024年にかけて、平均取引価格は+15.3%上昇している(年別推移: 2021年=3,374万円、2022年=3,573万円、2023年=3,674万円、2024年=3,891万円)。",
+    "yieldSimulation": "ここで、データに基づく利回り試算の一例をご紹介します。対象種別「中古マンション等」の平均取引価格3,891万円を基に、仮に月額家賃を価格の0.5%(195,000円)と仮定すると、年間家賃収入は2,340,000円となり、表面利回りは約6.0%になる(2,340,000 ÷ 38,914,334 × 100 ≒ 6.0%)。このシミュレーションはあくまで一律の家賃想定に基づく一例であり、実際の収益性は物件個別の条件や管理状態により異なります。",
+    "lowEntryPitch": "総投資額を抑えて不動産投資をスタートしたい層にとって、購入価格の低さは重要な基準です。西東京市における面積帯「〜30㎡(ワンルーム)」は20件の取引があり、平均取引価格は1,685万円と、他の区分より総投資額を抑えやすい水準になっている(利回り%が他区分より高いという意味ではなく、あくまで総額が低いという事実)。自己資金の負担を軽減して検討しやすい選択肢といえます。",
+    "agentComment": "宅地建物取引士として西東京市の統計データを確認していると、田無町など人気地区の需要の高さや、中古マンションを中心とした安定的な取引実績を確認しています。価格推移の上昇傾向を踏まえつつ、総額を抑えた投資も含めて、各物件の特性を客観的に見極めることが重要だと感じています。",
+    "beginnerTips": "西東京市で不動産投資を検討する初心者の方は、まず物件種別や面積帯ごとの取引水準を理解することが大切です。〜30㎡のワンルームは投資総額を低く抑えやすい傾向がありますが、地域の賃貸ニーズや競合物件の状況を丁寧に確認する必要があります。また、築26年以上の物件等を検討する際は、建物全体の維持管理状況や修繕履歴、将来の追加コストのリスクを十分に把握することが求められます。数値のみにとらわれず現地確認を怠らないようにしましょう。"
+  },
+  "generatedAt": "2026-09-12T04:09:28.470Z"
+}

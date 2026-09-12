@@ -1,9 +1,12 @@
 import { NextRequest, NextResponse } from "next/server";
 import type { SiteBrief, SiteContent, GenerateResponse } from "@/lib/types";
 
-// 使用するモデル。エラーが出る場合は https://docs.claude.com/en/docs/about-claude/models
-// で現在利用可能なモデルIDを確認し、.env.local の ANTHROPIC_MODEL で上書きしてください。
-const MODEL = process.env.ANTHROPIC_MODEL || "claude-sonnet-4-5-20250929";
+// Ollama(ローカルLLM)を利用する設定。
+// 事前に https://ollama.com からOllamaをインストールし、
+// `ollama pull qwen2.5:7b` 等でモデルを取得しておいてください。
+// 別のモデルを使う場合は .env.local の OLLAMA_MODEL で上書きできます。
+const OLLAMA_URL = process.env.OLLAMA_URL || "http://localhost:11434";
+const MODEL = process.env.OLLAMA_MODEL || "qwen2.5:7b";
 
 function buildPrompt(brief: SiteBrief): string {
   return `あなたはプロのWEBサイトコピーライター兼デザイナーです。
@@ -59,14 +62,6 @@ function isValidSiteContent(value: unknown): value is SiteContent {
 }
 
 export async function POST(req: NextRequest) {
-  const apiKey = process.env.ANTHROPIC_API_KEY;
-  if (!apiKey) {
-    return NextResponse.json<GenerateResponse>(
-      { ok: false, error: "ANTHROPIC_API_KEY が設定されていません(.env.local を確認してください)" },
-      { status: 500 }
-    );
-  }
-
   let brief: SiteBrief;
   try {
     brief = await req.json();
@@ -78,16 +73,13 @@ export async function POST(req: NextRequest) {
   }
 
   try {
-    const res = await fetch("https://api.anthropic.com/v1/messages", {
+    const res = await fetch(`${OLLAMA_URL}/api/chat`, {
       method: "POST",
-      headers: {
-        "content-type": "application/json",
-        "x-api-key": apiKey,
-        "anthropic-version": "2023-06-01",
-      },
+      headers: { "content-type": "application/json" },
       body: JSON.stringify({
         model: MODEL,
-        max_tokens: 1024,
+        stream: false,
+        format: "json",
         messages: [{ role: "user", content: buildPrompt(brief) }],
       }),
     });
@@ -95,13 +87,16 @@ export async function POST(req: NextRequest) {
     if (!res.ok) {
       const errText = await res.text();
       return NextResponse.json<GenerateResponse>(
-        { ok: false, error: `Anthropic API エラー (${res.status}): ${errText}` },
+        {
+          ok: false,
+          error: `Ollamaへの接続に失敗しました (${res.status}): ${errText}。Ollamaが起動しているか、モデル(${MODEL})を pull 済みか確認してください。`,
+        },
         { status: 502 }
       );
     }
 
     const data = await res.json();
-    const textBlock = data?.content?.[0]?.text ?? "";
+    const textBlock = data?.message?.content ?? "";
     const parsed = extractJson(textBlock);
 
     if (!isValidSiteContent(parsed)) {
@@ -114,6 +109,9 @@ export async function POST(req: NextRequest) {
     return NextResponse.json<GenerateResponse>({ ok: true, content: parsed });
   } catch (err) {
     const message = err instanceof Error ? err.message : "不明なエラー";
-    return NextResponse.json<GenerateResponse>({ ok: false, error: message }, { status: 500 });
+    return NextResponse.json<GenerateResponse>(
+      { ok: false, error: `${message}(Ollamaが http://localhost:11434 で起動しているか確認してください)` },
+      { status: 500 }
+    );
   }
 }
