@@ -1,0 +1,317 @@
+{
+  "slug": "13202-2024",
+  "title": "【2024年最新】東京都立川市の不動産投資相場と取引データを宅建士が徹底解説",
+  "prefecture": "東京都",
+  "city": "立川市",
+  "cityCode": "13202",
+  "year": "2024",
+  "quarter": null,
+  "stats": {
+    "count": 592,
+    "avgTradePrice": 46880743,
+    "minTradePrice": 2000000,
+    "maxTradePrice": 1200000000,
+    "avgUnitPrice": 297756,
+    "sampleDistricts": [
+      "栄町",
+      "富士見町",
+      "若葉町",
+      "一番町",
+      "曙町",
+      "錦町",
+      "羽衣町",
+      "上砂町"
+    ]
+  },
+  "byType": {
+    "宅地(土地と建物)": {
+      "count": 221,
+      "avgTradePrice": 55134842,
+      "minTradePrice": 4700000,
+      "maxTradePrice": 1200000000,
+      "avgUnitPrice": null,
+      "sampleDistricts": [
+        "栄町",
+        "富士見町",
+        "若葉町",
+        "一番町",
+        "錦町",
+        "羽衣町",
+        "曙町",
+        "上砂町"
+      ]
+    },
+    "中古マンション等": {
+      "count": 281,
+      "avgTradePrice": 32899288,
+      "minTradePrice": 2000000,
+      "maxTradePrice": 220000000,
+      "avgUnitPrice": null,
+      "sampleDistricts": [
+        "栄町",
+        "富士見町",
+        "若葉町",
+        "一番町",
+        "曙町",
+        "錦町",
+        "上砂町",
+        "羽衣町"
+      ]
+    },
+    "宅地(土地)": {
+      "count": 90,
+      "avgTradePrice": 70265556,
+      "minTradePrice": 9900000,
+      "maxTradePrice": 500000000,
+      "avgUnitPrice": 297756,
+      "sampleDistricts": [
+        "富士見町",
+        "若葉町",
+        "一番町",
+        "錦町",
+        "幸町",
+        "柴崎町",
+        "砂川町",
+        "高松町"
+      ]
+    }
+  },
+  "yieldSim": {
+    "targetType": "中古マンション等",
+    "avgTradePrice": 32899288,
+    "assumedMonthlyRent": 164000,
+    "annualRent": 1968000,
+    "yieldPct": "6.0"
+  },
+  "districtRanking": [
+    {
+      "district": "錦町",
+      "count": 105,
+      "avgTradePrice": 68237143
+    },
+    {
+      "district": "曙町",
+      "count": 65,
+      "avgTradePrice": 53363077
+    },
+    {
+      "district": "富士見町",
+      "count": 55,
+      "avgTradePrice": 36183636
+    },
+    {
+      "district": "高松町",
+      "count": 51,
+      "avgTradePrice": 46803922
+    },
+    {
+      "district": "一番町",
+      "count": 42,
+      "avgTradePrice": 28195238
+    },
+    {
+      "district": "西砂町",
+      "count": 41,
+      "avgTradePrice": 35317073
+    },
+    {
+      "district": "幸町",
+      "count": 39,
+      "avgTradePrice": 47841026
+    },
+    {
+      "district": "砂川町",
+      "count": 35,
+      "avgTradePrice": 30631429
+    }
+  ],
+  "ageBand": {
+    "築5年以内": {
+      "count": 124,
+      "avgTradePrice": 46677419,
+      "minTradePrice": 19000000,
+      "maxTradePrice": 230000000,
+      "avgUnitPrice": null,
+      "sampleDistricts": [
+        "栄町",
+        "富士見町",
+        "若葉町",
+        "一番町",
+        "曙町",
+        "上砂町",
+        "羽衣町",
+        "幸町"
+      ]
+    },
+    "築6〜15年": {
+      "count": 95,
+      "avgTradePrice": 51322105,
+      "minTradePrice": 2600000,
+      "maxTradePrice": 340000000,
+      "avgUnitPrice": null,
+      "sampleDistricts": [
+        "栄町",
+        "富士見町",
+        "若葉町",
+        "曙町",
+        "錦町",
+        "羽衣町",
+        "上砂町",
+        "幸町"
+      ]
+    },
+    "築16〜25年": {
+      "count": 92,
+      "avgTradePrice": 43078261,
+      "minTradePrice": 9200000,
+      "maxTradePrice": 240000000,
+      "avgUnitPrice": null,
+      "sampleDistricts": [
+        "富士見町",
+        "若葉町",
+        "曙町",
+        "錦町",
+        "柴崎町",
+        "高松町",
+        "西砂町",
+        "緑町"
+      ]
+    },
+    "築26年以上": {
+      "count": 170,
+      "avgTradePrice": 34251176,
+      "minTradePrice": 2000000,
+      "maxTradePrice": 1200000000,
+      "avgUnitPrice": null,
+      "sampleDistricts": [
+        "富士見町",
+        "栄町",
+        "一番町",
+        "曙町",
+        "錦町",
+        "羽衣町",
+        "上砂町",
+        "砂川町"
+      ]
+    }
+  },
+  "areaBand": {
+    "〜30㎡(ワンルーム)": {
+      "count": 70,
+      "avgTradePrice": 20082857,
+      "minTradePrice": 2600000,
+      "maxTradePrice": 39000000,
+      "avgUnitPrice": null,
+      "sampleDistricts": [
+        "錦町",
+        "曙町",
+        "砂川町",
+        "柴崎町",
+        "高松町",
+        "羽衣町",
+        "富士見町",
+        "幸町"
+      ]
+    },
+    "30〜50㎡(コンパクト)": {
+      "count": 47,
+      "avgTradePrice": 15153191,
+      "minTradePrice": 2000000,
+      "maxTradePrice": 50000000,
+      "avgUnitPrice": 230000,
+      "sampleDistricts": [
+        "富士見町",
+        "曙町",
+        "上砂町",
+        "錦町",
+        "高松町",
+        "柏町",
+        "砂川町",
+        "一番町"
+      ]
+    },
+    "50〜80㎡(ファミリー)": {
+      "count": 184,
+      "avgTradePrice": 38297283,
+      "minTradePrice": 5000000,
+      "maxTradePrice": 120000000,
+      "avgUnitPrice": 358333,
+      "sampleDistricts": [
+        "栄町",
+        "富士見町",
+        "若葉町",
+        "一番町",
+        "曙町",
+        "錦町",
+        "羽衣町",
+        "柴崎町"
+      ]
+    },
+    "80㎡〜(広め)": {
+      "count": 291,
+      "avgTradePrice": 63878694,
+      "minTradePrice": 4700000,
+      "maxTradePrice": 1200000000,
+      "avgUnitPrice": 294193,
+      "sampleDistricts": [
+        "栄町",
+        "富士見町",
+        "若葉町",
+        "一番町",
+        "曙町",
+        "錦町",
+        "羽衣町",
+        "上砂町"
+      ]
+    }
+  },
+  "priceTrend": {
+    "trend": [
+      {
+        "year": 2021,
+        "count": 379,
+        "avgTradePrice": 27268865
+      },
+      {
+        "year": 2022,
+        "count": 292,
+        "avgTradePrice": 29222945
+      },
+      {
+        "year": 2023,
+        "count": 306,
+        "avgTradePrice": 27025490
+      },
+      {
+        "year": 2024,
+        "count": 281,
+        "avgTradePrice": 32899288
+      }
+    ],
+    "firstYear": 2021,
+    "lastYear": 2024,
+    "changePct": "20.6"
+  },
+  "lowEntry": {
+    "source": "面積帯",
+    "label": "30〜50㎡(コンパクト)",
+    "count": 47,
+    "avgTradePrice": 15153191
+  },
+  "heroImage": {
+    "url": "https://images.pexels.com/photos/33016323/pexels-photo-33016323.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "立川市のイメージ写真(実際の物件ではありません)",
+    "photographer": "kazuyoshi sakamoto",
+    "photographerUrl": "https://www.pexels.com/@kazu1000",
+    "pageUrl": "https://www.pexels.com/photo/sunny-suburban-street-with-blue-sky-scene-33016323/"
+  },
+  "sections": {
+    "overview": "国土交通省の公式データによると、2024年の東京都立川市における不動産取引件数は全体で592件、平均取引価格は4,688万円となっています。物件種別ごとの内訳を見ると、最も取引件数が多いのは「中古マンション等」の281件で平均価格は3,290万円（㎡単価平均データなし）です。次いで「宅地(土地と建物)」が221件で平均価格5,513万円（㎡単価平均データなし）、「宅地(土地)」が90件で平均価格7,027万円（平均㎡単価297,756円）となっています。種別によって取引規模や平均価格に明確な違いが見られるのが立川市エリアの特徴です。",
+    "propertyTrend": "立川市の取引状況を見ると、人気地区ランキングでは1位の錦町（105件、平均6,824万円）や2位の曙町（65件、平均5,336万円）など中心エリアの取引が活発です。築年数帯では築26年以上が170件（平均3,425万円）と最も多く、次いで築5年以内が124件（平均4,668万円）となっています。面積帯別では80㎡〜が291件（平均6,388万円）と最多で、次いで50〜80㎡が184件（平均3,830万円）です。複数年の価格推移として、2021年から2024年にかけて、平均取引価格は+20.6%上昇している(年別推移: 2021年=2,727万円、2022年=2,922万円、2023年=2,703万円、2024年=3,290万円)という事実が確認できます。",
+    "yieldSimulation": "不動産投資の収益性を確認する指標として、公式データに基づく試算例をご紹介します。対象種別「中古マンション等」の平均取引価格3,290万円を基に、仮に月額家賃を価格の0.5%(164,000円)と仮定すると、年間家賃収入は1,968,000円となり、表面利回りは約6.0%になる(1,968,000 ÷ 32,899,288 × 100 ≒ 6.0%)。なお、この数値はあくまで一定の家賃設定を置いたシミュレーションの一例であり、実際の賃貸条件や物件状態によって収益は変動します。",
+    "lowEntryPitch": "投資総額を抑えて不動産投資をスタートしたい方にとっても、立川市には検討しやすい選択肢が存在します。面積帯「30〜50㎡(コンパクト)」は47件の取引があり、平均取引価格は1,515万円と、他の区分より総投資額を抑えやすい水準になっている(利回り%が他区分より高いという意味ではなく、あくまで総額が低いという事実)。自己資金に合わせた物件選定を行う上で、総額を抑えられる区分は注目すべきポイントです。",
+    "agentComment": "宅地建物取引士として立川市の市場データを確認すると、錦町や曙町といった利便性の高い地区で活発に取引が行われている一方で、築26年以上の物件も多く流通していることを確認しています。投資目的に応じてエリアや築年数、面積帯による価格帯の違いをしっかり把握することが重要であると感じています。",
+    "beginnerTips": "立川市で不動産投資を検討する初心者は、まずエリアごとの価格差や物件特性の差異を客観的に把握することが重要です。錦町や曙町などの中心地とその他の地域では取引平均価格に開きがあります。また、築古物件やコンパクト物件は総投資額を抑えやすい反面、実際の賃貸需要や将来の修繕リスク、管理状態を事前に精査する必要があります。単に価格の安さだけで判断せず、現地調査や周辺の賃貸市場の動向を多角的に確認した上で投資判断を行うことが推奨されます。"
+  },
+  "generatedAt": "2026-09-15T17:26:54.522Z"
+}

@@ -1,0 +1,286 @@
+{
+  "slug": "13227-2024",
+  "title": "東京都羽村市の不動産投資相場解説！データで探る取引傾向と価格推移",
+  "prefecture": "東京都",
+  "city": "羽村市",
+  "cityCode": "13227",
+  "year": "2024",
+  "quarter": null,
+  "stats": {
+    "count": 140,
+    "avgTradePrice": 111904286,
+    "minTradePrice": 3800000,
+    "maxTradePrice": 4900000000,
+    "avgUnitPrice": 172031,
+    "sampleDistricts": [
+      "緑ヶ丘",
+      "小作台",
+      "神明台",
+      "五ノ神",
+      "川崎",
+      "羽東",
+      "玉川",
+      "富士見平"
+    ]
+  },
+  "byType": {
+    "宅地(土地と建物)": {
+      "count": 72,
+      "avgTradePrice": 65379167,
+      "minTradePrice": 6800000,
+      "maxTradePrice": 1100000000,
+      "avgUnitPrice": null,
+      "sampleDistricts": [
+        "緑ヶ丘",
+        "神明台",
+        "五ノ神",
+        "小作台",
+        "川崎",
+        "羽東",
+        "玉川",
+        "富士見平"
+      ]
+    },
+    "中古マンション等": {
+      "count": 36,
+      "avgTradePrice": 15411111,
+      "minTradePrice": 3800000,
+      "maxTradePrice": 31000000,
+      "avgUnitPrice": null,
+      "sampleDistricts": [
+        "緑ヶ丘",
+        "小作台",
+        "神明台",
+        "玉川",
+        "栄町",
+        "五ノ神"
+      ]
+    },
+    "宅地(土地)": {
+      "count": 32,
+      "avgTradePrice": 325140625,
+      "minTradePrice": 6500000,
+      "maxTradePrice": 4900000000,
+      "avgUnitPrice": 172031,
+      "sampleDistricts": [
+        "川崎",
+        "栄町",
+        "羽加美",
+        "羽中",
+        "五ノ神",
+        "小作台",
+        "神明台",
+        "羽東"
+      ]
+    }
+  },
+  "yieldSim": {
+    "targetType": "中古マンション等",
+    "avgTradePrice": 15411111,
+    "assumedMonthlyRent": 77000,
+    "annualRent": 924000,
+    "yieldPct": "6.0"
+  },
+  "districtRanking": [
+    {
+      "district": "小作台",
+      "count": 24,
+      "avgTradePrice": 30870833
+    },
+    {
+      "district": "神明台",
+      "count": 20,
+      "avgTradePrice": 564145000
+    },
+    {
+      "district": "緑ヶ丘",
+      "count": 19,
+      "avgTradePrice": 33157895
+    },
+    {
+      "district": "羽中",
+      "count": 14,
+      "avgTradePrice": 40107143
+    },
+    {
+      "district": "栄町",
+      "count": 13,
+      "avgTradePrice": 48984615
+    },
+    {
+      "district": "羽加美",
+      "count": 11,
+      "avgTradePrice": 55272727
+    },
+    {
+      "district": "川崎",
+      "count": 8,
+      "avgTradePrice": 40125000
+    },
+    {
+      "district": "五ノ神",
+      "count": 7,
+      "avgTradePrice": 43714286
+    }
+  ],
+  "ageBand": {
+    "築5年以内": {
+      "count": 26,
+      "avgTradePrice": 53384615,
+      "minTradePrice": 26000000,
+      "maxTradePrice": 400000000,
+      "avgUnitPrice": null,
+      "sampleDistricts": [
+        "緑ヶ丘",
+        "小作台",
+        "栄町",
+        "羽加美",
+        "五ノ神",
+        "羽中",
+        "羽西",
+        "富士見平"
+      ]
+    },
+    "築6〜15年": {
+      "count": 5,
+      "avgTradePrice": 35800000,
+      "minTradePrice": 20000000,
+      "maxTradePrice": 72000000,
+      "avgUnitPrice": null,
+      "sampleDistricts": [
+        "小作台",
+        "玉川",
+        "緑ヶ丘",
+        "羽西"
+      ]
+    },
+    "築16〜25年": {
+      "count": 26,
+      "avgTradePrice": 29384615,
+      "minTradePrice": 10000000,
+      "maxTradePrice": 72000000,
+      "avgUnitPrice": null,
+      "sampleDistricts": [
+        "神明台",
+        "五ノ神",
+        "小作台",
+        "川崎",
+        "富士見平",
+        "栄町",
+        "双葉町",
+        "羽加美"
+      ]
+    },
+    "築26年以上": {
+      "count": 49,
+      "avgTradePrice": 57961224,
+      "minTradePrice": 3800000,
+      "maxTradePrice": 1100000000,
+      "avgUnitPrice": null,
+      "sampleDistricts": [
+        "緑ヶ丘",
+        "小作台",
+        "神明台",
+        "羽東",
+        "玉川",
+        "栄町",
+        "羽加美",
+        "双葉町"
+      ]
+    }
+  },
+  "areaBand": {
+    "30〜50㎡(コンパクト)": {
+      "count": 5,
+      "avgTradePrice": 9760000,
+      "minTradePrice": 3800000,
+      "maxTradePrice": 16000000,
+      "avgUnitPrice": null,
+      "sampleDistricts": [
+        "栄町",
+        "五ノ神"
+      ]
+    },
+    "50〜80㎡(ファミリー)": {
+      "count": 31,
+      "avgTradePrice": 15090323,
+      "minTradePrice": 5000000,
+      "maxTradePrice": 27000000,
+      "avgUnitPrice": 220000,
+      "sampleDistricts": [
+        "緑ヶ丘",
+        "小作台",
+        "神明台",
+        "玉川",
+        "栄町",
+        "川崎"
+      ]
+    },
+    "80㎡〜(広め)": {
+      "count": 104,
+      "avgTradePrice": 145673077,
+      "minTradePrice": 6500000,
+      "maxTradePrice": 4900000000,
+      "avgUnitPrice": 170484,
+      "sampleDistricts": [
+        "緑ヶ丘",
+        "神明台",
+        "五ノ神",
+        "小作台",
+        "川崎",
+        "羽東",
+        "玉川",
+        "富士見平"
+      ]
+    }
+  },
+  "priceTrend": {
+    "trend": [
+      {
+        "year": 2021,
+        "count": 42,
+        "avgTradePrice": 13876190
+      },
+      {
+        "year": 2022,
+        "count": 43,
+        "avgTradePrice": 16760465
+      },
+      {
+        "year": 2023,
+        "count": 28,
+        "avgTradePrice": 15167857
+      },
+      {
+        "year": 2024,
+        "count": 36,
+        "avgTradePrice": 15411111
+      }
+    ],
+    "firstYear": 2021,
+    "lastYear": 2024,
+    "changePct": "11.1"
+  },
+  "lowEntry": {
+    "source": "面積帯",
+    "label": "50〜80㎡(ファミリー)",
+    "count": 31,
+    "avgTradePrice": 15090323
+  },
+  "heroImage": {
+    "url": "https://images.pexels.com/photos/5392358/pexels-photo-5392358.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "羽村市のイメージ写真(実際の物件ではありません)",
+    "photographer": "Gije Cho",
+    "photographerUrl": "https://www.pexels.com/@gije",
+    "pageUrl": "https://www.pexels.com/photo/view-of-a-street-in-a-town-5392358/"
+  },
+  "sections": {
+    "overview": "2024年の東京都羽村市における不動産取引の全体集計では、取引件数は140件、平均取引価格は11,190万円でした。物件種別ごとの内訳を見ると、宅地(土地と建物)が72件で平均6,538万円、中古マンション等が36件で平均1,541万円、宅地(土地)が32件で平均32,514万円となっています。なお、宅地(土地)の㎡単価平均は172,031円ですが、宅地(土地と建物)および中古マンション等では㎡単価が記録されていません。種別により平均価格帯が大きく異なっており、投資目的や予算に合わせた種別選定が重要であることを示すデータとなっています。",
+    "propertyTrend": "羽村市の人気地区ランキングでは、1位が小作台（24件、平均3,087万円）、2位が神明台（20件、平均56,415万円）、3位が緑ヶ丘（19件、平均3,316万円）となっています。築年数帯別では築26年以上が49件（平均5,796万円）、築5年以内および築16〜25年が各26件と多く取引されています。面積帯では80㎡〜(広め)が104件（平均14,567万円）と大半を占めています。複数年の価格推移としては、2021年から2024年にかけて、平均取引価格は+11.1%上昇している(年別推移: 2021年=1,388万円、2022年=1,676万円、2023年=1,517万円、2024年=1,541万円)。このようなデータから、実需・投資問わず広い面積帯を中心に多様な取引が行われている状況がうかがえます。",
+    "yieldSimulation": "不動産投資の収支イメージを把握するための試算例をご紹介します。対象種別「中古マンション等」の平均取引価格1,541万円を基に、仮に月額家賃を価格の0.5%(77,000円)と仮定すると、年間家賃収入は924,000円となり、表面利回りは約6.0%になる(924,000 ÷ 15,411,111 × 100 ≒ 6.0%)。この試算は一律の家賃想定に基づくあくまで一例であり、実際の家賃設定や管理費、修繕積立金などの諸費用によって手元に残る実質利回りは変動します。慎重な検討が必要です。",
+    "lowEntryPitch": "総額を抑えて投資をスタートしたい方に適した取引区分をご紹介します。面積帯「50〜80㎡(ファミリー)」は31件の取引があり、平均取引価格は1,509万円と、他の区分より総投資額を抑えやすい水準になっている(利回り%が他区分より高いという意味ではなく、あくまで総額が低いという事実)。自己資金の負担を軽減して購入を検討したい投資家にとって、選択肢の一つとなるデータです。",
+    "agentComment": "宅地建物取引士として現場のデータを分析すると、羽村市では小作台や神明台などを中心に安定した取引件数が確保されていると感じています。中古マンション等は平均1,541万円と比較的購入しやすい価格帯で推移していることを確認しています。地域の賃貸需要や物件ごとの状態を丁寧に確認することが大切です。",
+    "beginnerTips": "羽村市で不動産投資を検討する初心者は、まず物件の種別や立地特性による価格差を把握することが大切です。特に小作台などの人気地区と他のエリアでは価格帯や需要に違いがあります。また、築年数が経過した物件を検討する際は、建物や設備の修繕履歴・今後のメンテナンスコストを見積もる必要があります。さらに、管理費や修繕積立金といったランニングコスト、実際の周辺賃貸相場や空室リスクについても事前に十分な調査を行い、現実的な収支計画を立てることが重要です。"
+  },
+  "generatedAt": "2026-09-15T17:33:51.180Z"
+}

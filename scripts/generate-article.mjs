@@ -490,17 +490,37 @@ ${lowEntryText}
 }`;
 
   const endpoint = `https://generativelanguage.googleapis.com/v1beta/models/${GEMINI_MODEL}:generateContent?key=${GEMINI_API_KEY}`;
-  const res = await fetch(endpoint, {
-    method: "POST",
-    headers: { "content-type": "application/json" },
-    body: JSON.stringify({
-      contents: [{ role: "user", parts: [{ text: prompt }] }],
-      generationConfig: { responseMimeType: "application/json" },
-    }),
-  });
+
+  const MAX_RETRIES = 4;
+  const RETRYABLE_STATUS = new Set([429, 500, 503, 504]);
+  let res;
+  let lastErrorText = "";
+  for (let attempt = 1; attempt <= MAX_RETRIES; attempt++) {
+    res = await fetch(endpoint, {
+      method: "POST",
+      headers: { "content-type": "application/json" },
+      body: JSON.stringify({
+        contents: [{ role: "user", parts: [{ text: prompt }] }],
+        generationConfig: { responseMimeType: "application/json" },
+      }),
+    });
+
+    if (res.ok) break;
+
+    lastErrorText = await res.text();
+    const shouldRetry = RETRYABLE_STATUS.has(res.status) && attempt < MAX_RETRIES;
+    if (!shouldRetry) {
+      throw new Error(`Gemini APIエラー (${res.status}): ${lastErrorText}`);
+    }
+    const waitMs = 5000 * attempt; // 5秒, 10秒, 15秒...と待ち時間を延ばす
+    console.log(
+      `  ⚠ Gemini APIが混雑しています(${res.status})。${waitMs / 1000}秒待って再試行します (${attempt}/${MAX_RETRIES})...`
+    );
+    await sleep(waitMs);
+  }
 
   if (!res.ok) {
-    throw new Error(`Gemini APIエラー (${res.status}): ${await res.text()}`);
+    throw new Error(`Gemini APIエラー (${res.status}): ${lastErrorText}`);
   }
 
   const data = await res.json();

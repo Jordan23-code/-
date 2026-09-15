@@ -1,0 +1,310 @@
+{
+  "slug": "13207-2024",
+  "title": "【2024年最新】東京都昭島市の不動産投資相場と物件種別・エリア別取引傾向を解説",
+  "prefecture": "東京都",
+  "city": "昭島市",
+  "cityCode": "13207",
+  "year": "2024",
+  "quarter": null,
+  "stats": {
+    "count": 352,
+    "avgTradePrice": 38401420,
+    "minTradePrice": 3000000,
+    "maxTradePrice": 210000000,
+    "avgUnitPrice": 205896,
+    "sampleDistricts": [
+      "昭和町",
+      "緑町",
+      "宮沢町",
+      "武蔵野",
+      "大神町",
+      "東町",
+      "つつじが丘",
+      "拝島町"
+    ]
+  },
+  "byType": {
+    "宅地(土地と建物)": {
+      "count": 140,
+      "avgTradePrice": 46320000,
+      "minTradePrice": 3000000,
+      "maxTradePrice": 210000000,
+      "avgUnitPrice": null,
+      "sampleDistricts": [
+        "昭和町",
+        "緑町",
+        "宮沢町",
+        "武蔵野",
+        "大神町",
+        "拝島町",
+        "朝日町",
+        "東町"
+      ]
+    },
+    "中古マンション等": {
+      "count": 164,
+      "avgTradePrice": 28807927,
+      "minTradePrice": 3000000,
+      "maxTradePrice": 64000000,
+      "avgUnitPrice": null,
+      "sampleDistricts": [
+        "昭和町",
+        "宮沢町",
+        "武蔵野",
+        "東町",
+        "つつじが丘",
+        "もくせいの杜",
+        "大神町",
+        "玉川町"
+      ]
+    },
+    "宅地(土地)": {
+      "count": 48,
+      "avgTradePrice": 48083333,
+      "minTradePrice": 7000000,
+      "maxTradePrice": 160000000,
+      "avgUnitPrice": 205896,
+      "sampleDistricts": [
+        "宮沢町",
+        "朝日町",
+        "郷地町",
+        "玉川町",
+        "中神町",
+        "美堀町",
+        "東町",
+        "緑町"
+      ]
+    }
+  },
+  "yieldSim": {
+    "targetType": "中古マンション等",
+    "avgTradePrice": 28807927,
+    "assumedMonthlyRent": 144000,
+    "annualRent": 1728000,
+    "yieldPct": "6.0"
+  },
+  "districtRanking": [
+    {
+      "district": "松原町",
+      "count": 46,
+      "avgTradePrice": 33717391
+    },
+    {
+      "district": "中神町",
+      "count": 42,
+      "avgTradePrice": 46964286
+    },
+    {
+      "district": "つつじが丘",
+      "count": 41,
+      "avgTradePrice": 19390244
+    },
+    {
+      "district": "宮沢町",
+      "count": 32,
+      "avgTradePrice": 42078125
+    },
+    {
+      "district": "武蔵野",
+      "count": 24,
+      "avgTradePrice": 28354167
+    },
+    {
+      "district": "玉川町",
+      "count": 22,
+      "avgTradePrice": 45945455
+    },
+    {
+      "district": "昭和町",
+      "count": 18,
+      "avgTradePrice": 44555556
+    },
+    {
+      "district": "東町",
+      "count": 17,
+      "avgTradePrice": 40588235
+    }
+  ],
+  "ageBand": {
+    "築5年以内": {
+      "count": 69,
+      "avgTradePrice": 51043478,
+      "minTradePrice": 27000000,
+      "maxTradePrice": 210000000,
+      "avgUnitPrice": null,
+      "sampleDistricts": [
+        "緑町",
+        "宮沢町",
+        "拝島町",
+        "もくせいの杜",
+        "朝日町",
+        "東町",
+        "田中町",
+        "中神町"
+      ]
+    },
+    "築6〜15年": {
+      "count": 50,
+      "avgTradePrice": 41000000,
+      "minTradePrice": 22000000,
+      "maxTradePrice": 98000000,
+      "avgUnitPrice": null,
+      "sampleDistricts": [
+        "昭和町",
+        "緑町",
+        "宮沢町",
+        "武蔵野",
+        "東町",
+        "大神町",
+        "拝島町",
+        "中神町"
+      ]
+    },
+    "築16〜25年": {
+      "count": 54,
+      "avgTradePrice": 36851852,
+      "minTradePrice": 18000000,
+      "maxTradePrice": 120000000,
+      "avgUnitPrice": null,
+      "sampleDistricts": [
+        "武蔵野",
+        "大神町",
+        "東町",
+        "玉川町",
+        "松原町",
+        "美堀町",
+        "宮沢町",
+        "中神町"
+      ]
+    },
+    "築26年以上": {
+      "count": 115,
+      "avgTradePrice": 26359130,
+      "minTradePrice": 3000000,
+      "maxTradePrice": 180000000,
+      "avgUnitPrice": null,
+      "sampleDistricts": [
+        "昭和町",
+        "宮沢町",
+        "武蔵野",
+        "大神町",
+        "つつじが丘",
+        "朝日町",
+        "拝島町",
+        "玉川町"
+      ]
+    }
+  },
+  "areaBand": {
+    "〜30㎡(ワンルーム)": {
+      "count": 1,
+      "avgTradePrice": 3000000,
+      "minTradePrice": 3000000,
+      "maxTradePrice": 3000000,
+      "avgUnitPrice": null,
+      "sampleDistricts": [
+        "昭和町"
+      ]
+    },
+    "30〜50㎡(コンパクト)": {
+      "count": 13,
+      "avgTradePrice": 15176923,
+      "minTradePrice": 3800000,
+      "maxTradePrice": 33000000,
+      "avgUnitPrice": 325000,
+      "sampleDistricts": [
+        "宮沢町",
+        "武蔵野",
+        "大神町",
+        "玉川町",
+        "松原町",
+        "中神町",
+        "東町",
+        "福島町"
+      ]
+    },
+    "50〜80㎡(ファミリー)": {
+      "count": 133,
+      "avgTradePrice": 27548872,
+      "minTradePrice": 9500000,
+      "maxTradePrice": 66000000,
+      "avgUnitPrice": 252000,
+      "sampleDistricts": [
+        "昭和町",
+        "宮沢町",
+        "武蔵野",
+        "つつじが丘",
+        "もくせいの杜",
+        "朝日町",
+        "東町",
+        "玉川町"
+      ]
+    },
+    "80㎡〜(広め)": {
+      "count": 205,
+      "avgTradePrice": 47087805,
+      "minTradePrice": 3000000,
+      "maxTradePrice": 210000000,
+      "avgUnitPrice": 194463,
+      "sampleDistricts": [
+        "昭和町",
+        "緑町",
+        "宮沢町",
+        "武蔵野",
+        "大神町",
+        "東町",
+        "拝島町",
+        "朝日町"
+      ]
+    }
+  },
+  "priceTrend": {
+    "trend": [
+      {
+        "year": 2021,
+        "count": 146,
+        "avgTradePrice": 25493836
+      },
+      {
+        "year": 2022,
+        "count": 114,
+        "avgTradePrice": 26990351
+      },
+      {
+        "year": 2023,
+        "count": 99,
+        "avgTradePrice": 27015152
+      },
+      {
+        "year": 2024,
+        "count": 164,
+        "avgTradePrice": 28807927
+      }
+    ],
+    "firstYear": 2021,
+    "lastYear": 2024,
+    "changePct": "13.0"
+  },
+  "lowEntry": {
+    "source": "面積帯",
+    "label": "30〜50㎡(コンパクト)",
+    "count": 13,
+    "avgTradePrice": 15176923
+  },
+  "heroImage": {
+    "url": "https://images.pexels.com/photos/10901924/pexels-photo-10901924.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "昭島市のイメージ写真(実際の物件ではありません)",
+    "photographer": "旭 吉田",
+    "photographerUrl": "https://www.pexels.com/@1073305",
+    "pageUrl": "https://www.pexels.com/photo/utility-poles-beside-the-concrete-houses-10901924/"
+  },
+  "sections": {
+    "overview": "2024年の東京都昭島市における不動産取引の全体集計では、取引件数352件、平均取引価格3,840万円となっています。物件種別ごとの内訳を見ると、中古マンション等が164件で平均2,881万円（㎡単価平均データなし）、宅地(土地と建物)が140件で平均4,632万円（㎡単価平均データなし）、宅地(土地)が48件で平均4,808万円（㎡単価平均205,896円）です。このように種別によって取引の平均価格や件数に明確な違いがみられ、投資対象の選定においては各物件種別の特性や価格帯を正確に把握することが重要となります。",
+    "propertyTrend": "昭島市における人気地区ランキングでは、1位が松原町で46件（平均3,372万円）、2位が中神町で42件（平均4,696万円）、3位がつつじが丘で41件（平均1,939万円）となっています。築年数帯別では築26年以上が115件（平均2,636万円）と最も多く、築5年以内も69件（平均5,104万円）の取引が確認できます。面積帯では80㎡〜が205件（平均4,709万円）、50〜80㎡が133件（平均2,755万円）と大きめの物件が主流です。なお、複数年の価格推移としては、2021年から2024年にかけて、平均取引価格は+13.0%上昇している(年別推移: 2021年=2,549万円、2022年=2,699万円、2023年=2,702万円、2024年=2,881万円)。",
+    "yieldSimulation": "収益性を検討する際の指標として、データに基づいた一例をご紹介します。対象種別「中古マンション等」の平均取引価格2,881万円を基に、仮に月額家賃を価格の0.5%(144,000円)と仮定すると、年間家賃収入は1,728,000円となり、表面利回りは約6.0%になる(1,728,000 ÷ 28,807,927 × 100 ≒ 6.0%)。こちらの試算は一定の条件に基づく想定値であり、実際の収益は個別の物件条件によって変動することを念頭に置く必要があります。",
+    "lowEntryPitch": "初期費用や総投資額を低く抑えて運用を始めたい投資家にとって、物件の取得価格水準は重要な要素です。データにおいて、面積帯「30〜50㎡(コンパクト)」は13件の取引があり、平均取引価格は1,518万円と、他の区分より総投資額を抑えやすい水準になっている(利回り%が他区分より高いという意味ではなく、あくまで総額が低いという事実)。資金計画に合わせた投資規模を検討する際の選択肢となります。",
+    "agentComment": "宅地建物取引士として市場データを確認すると、昭島市では築26年以上の物件や広めのファミリータイプが市場の中心でありつつも、総額を抑えられるコンパクトな取引まで幅広い需要が存在していると実感しています。平均価格の上昇傾向とともに地区ごとの価格帯の違いも顕著であるため、現地の利便性や需給バランスを慎重に見極めることが大切であると感じています。",
+    "beginnerTips": "昭島市で不動産投資を検討する初心者は、まず物件のコンディションや管理体制の確認が必要です。築年数が経過した物件の取引も多く見られるため、大規模修繕の履歴や将来の積立金の状況をあらかじめチェックすることが欠かせません。また、松原町やつつじが丘などエリアによって平均価格や取引傾向が異なるため、対象地域の賃貸需要やアクセス面を多角的に分析することが重要です。一定のシミュレーションだけに頼らず、実質的なコストや空室リスクを考慮して総合的に判断しましょう。"
+  },
+  "generatedAt": "2026-09-15T17:27:26.035Z"
+}
