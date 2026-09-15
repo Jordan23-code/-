@@ -1,0 +1,346 @@
+{
+  "slug": "13201-2024",
+  "title": "【2024年最新】東京都八王子市の不動産投資相場と取引動向を宅建士が解説",
+  "prefecture": "東京都",
+  "city": "八王子市",
+  "cityCode": "13201",
+  "year": "2024",
+  "quarter": null,
+  "stats": {
+    "count": 1769,
+    "avgTradePrice": 36411377,
+    "minTradePrice": 16000,
+    "maxTradePrice": 1400000000,
+    "avgUnitPrice": 132131,
+    "sampleDistricts": [
+      "暁町",
+      "旭町",
+      "追分町",
+      "上川町",
+      "川町",
+      "椚田町",
+      "左入町",
+      "下恩方町"
+    ]
+  },
+  "byType": {
+    "中古マンション等": {
+      "count": 723,
+      "avgTradePrice": 26220387,
+      "minTradePrice": 100000,
+      "maxTradePrice": 88000000,
+      "avgUnitPrice": null,
+      "sampleDistricts": [
+        "暁町",
+        "旭町",
+        "追分町",
+        "椚田町",
+        "館町",
+        "中野山王",
+        "別所",
+        "南大沢"
+      ]
+    },
+    "宅地(土地)": {
+      "count": 239,
+      "avgTradePrice": 35307197,
+      "minTradePrice": 150000,
+      "maxTradePrice": 300000000,
+      "avgUnitPrice": 132131,
+      "sampleDistricts": [
+        "上川町",
+        "下恩方町",
+        "館町",
+        "中野山王",
+        "楢原町",
+        "兵衛",
+        "宮下町",
+        "元本郷町"
+      ]
+    },
+    "宅地(土地と建物)": {
+      "count": 794,
+      "avgTradePrice": 46525315,
+      "minTradePrice": 1500000,
+      "maxTradePrice": 1400000000,
+      "avgUnitPrice": null,
+      "sampleDistricts": [
+        "上川町",
+        "川町",
+        "椚田町",
+        "左入町",
+        "下恩方町",
+        "館町",
+        "楢原町",
+        "東中野"
+      ]
+    },
+    "林地": {
+      "count": 7,
+      "avgTradePrice": 9650000,
+      "minTradePrice": 500000,
+      "maxTradePrice": 37000000,
+      "avgUnitPrice": null,
+      "sampleDistricts": [
+        "上川町",
+        "上柚木",
+        "鑓水",
+        "西寺方町",
+        "川口町",
+        "長房町"
+      ]
+    },
+    "農地": {
+      "count": 6,
+      "avgTradePrice": 1219333,
+      "minTradePrice": 16000,
+      "maxTradePrice": 3000000,
+      "avgUnitPrice": null,
+      "sampleDistricts": [
+        "上川町",
+        "上恩方町",
+        "小宮町",
+        "高月町",
+        "下恩方町"
+      ]
+    }
+  },
+  "yieldSim": {
+    "targetType": "中古マンション等",
+    "avgTradePrice": 26220387,
+    "assumedMonthlyRent": 131000,
+    "annualRent": 1572000,
+    "yieldPct": "6.0"
+  },
+  "districtRanking": [
+    {
+      "district": "大和田町",
+      "count": 71,
+      "avgTradePrice": 27307042
+    },
+    {
+      "district": "別所",
+      "count": 69,
+      "avgTradePrice": 39579710
+    },
+    {
+      "district": "川口町",
+      "count": 61,
+      "avgTradePrice": 21465574
+    },
+    {
+      "district": "東浅川町",
+      "count": 54,
+      "avgTradePrice": 38224074
+    },
+    {
+      "district": "みなみ野",
+      "count": 52,
+      "avgTradePrice": 52269231
+    },
+    {
+      "district": "明神町",
+      "count": 51,
+      "avgTradePrice": 31137255
+    },
+    {
+      "district": "散田町",
+      "count": 47,
+      "avgTradePrice": 33425532
+    },
+    {
+      "district": "元八王子町",
+      "count": 45,
+      "avgTradePrice": 25077778
+    }
+  ],
+  "ageBand": {
+    "築5年以内": {
+      "count": 301,
+      "avgTradePrice": 48013289,
+      "minTradePrice": 19000000,
+      "maxTradePrice": 450000000,
+      "avgUnitPrice": null,
+      "sampleDistricts": [
+        "旭町",
+        "川町",
+        "椚田町",
+        "下恩方町",
+        "東中野",
+        "八幡町",
+        "石川町",
+        "犬目町"
+      ]
+    },
+    "築6〜15年": {
+      "count": 215,
+      "avgTradePrice": 40023256,
+      "minTradePrice": 13000000,
+      "maxTradePrice": 130000000,
+      "avgUnitPrice": null,
+      "sampleDistricts": [
+        "旭町",
+        "椚田町",
+        "左入町",
+        "下恩方町",
+        "東中野",
+        "別所",
+        "暁町",
+        "南大沢"
+      ]
+    },
+    "築16〜25年": {
+      "count": 304,
+      "avgTradePrice": 33947368,
+      "minTradePrice": 10000000,
+      "maxTradePrice": 180000000,
+      "avgUnitPrice": null,
+      "sampleDistricts": [
+        "元本郷町",
+        "川町",
+        "八幡町",
+        "南大沢",
+        "北野町",
+        "台町",
+        "並木町",
+        "狭間町"
+      ]
+    },
+    "築26年以上": {
+      "count": 618,
+      "avgTradePrice": 28138350,
+      "minTradePrice": 100000,
+      "maxTradePrice": 1300000000,
+      "avgUnitPrice": null,
+      "sampleDistricts": [
+        "暁町",
+        "旭町",
+        "追分町",
+        "上川町",
+        "川町",
+        "椚田町",
+        "左入町",
+        "下恩方町"
+      ]
+    }
+  },
+  "areaBand": {
+    "〜30㎡(ワンルーム)": {
+      "count": 112,
+      "avgTradePrice": 8235179,
+      "minTradePrice": 100000,
+      "maxTradePrice": 28000000,
+      "avgUnitPrice": 35500,
+      "sampleDistricts": [
+        "暁町",
+        "旭町",
+        "追分町",
+        "中野山王",
+        "北野町",
+        "台町",
+        "大和田町",
+        "横山町"
+      ]
+    },
+    "30〜50㎡(コンパクト)": {
+      "count": 41,
+      "avgTradePrice": 22251220,
+      "minTradePrice": 1200000,
+      "maxTradePrice": 60000000,
+      "avgUnitPrice": 73833,
+      "sampleDistricts": [
+        "旭町",
+        "南大沢",
+        "八木町",
+        "散田町",
+        "元横山町",
+        "横山町",
+        "大船町",
+        "万町"
+      ]
+    },
+    "50〜80㎡(ファミリー)": {
+      "count": 423,
+      "avgTradePrice": 26914894,
+      "minTradePrice": 2000000,
+      "maxTradePrice": 77000000,
+      "avgUnitPrice": 140800,
+      "sampleDistricts": [
+        "旭町",
+        "追分町",
+        "椚田町",
+        "館町",
+        "別所",
+        "八幡町",
+        "東中野",
+        "南大沢"
+      ]
+    },
+    "80㎡〜(広め)": {
+      "count": 1193,
+      "avgTradePrice": 42910382,
+      "minTradePrice": 16000,
+      "maxTradePrice": 1400000000,
+      "avgUnitPrice": 134342,
+      "sampleDistricts": [
+        "上川町",
+        "川町",
+        "椚田町",
+        "左入町",
+        "下恩方町",
+        "館町",
+        "中野山王",
+        "楢原町"
+      ]
+    }
+  },
+  "priceTrend": {
+    "trend": [
+      {
+        "year": 2021,
+        "count": 871,
+        "avgTradePrice": 22029793
+      },
+      {
+        "year": 2022,
+        "count": 827,
+        "avgTradePrice": 24704365
+      },
+      {
+        "year": 2023,
+        "count": 770,
+        "avgTradePrice": 27053000
+      },
+      {
+        "year": 2024,
+        "count": 723,
+        "avgTradePrice": 26220387
+      }
+    ],
+    "firstYear": 2021,
+    "lastYear": 2024,
+    "changePct": "19.0"
+  },
+  "lowEntry": {
+    "source": "面積帯",
+    "label": "〜30㎡(ワンルーム)",
+    "count": 112,
+    "avgTradePrice": 8235179
+  },
+  "heroImage": {
+    "url": "https://images.pexels.com/photos/5392358/pexels-photo-5392358.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "八王子市のイメージ写真(実際の物件ではありません)",
+    "photographer": "Gije Cho",
+    "photographerUrl": "https://www.pexels.com/@gije",
+    "pageUrl": "https://www.pexels.com/photo/view-of-a-street-in-a-town-5392358/"
+  },
+  "sections": {
+    "overview": "国土交通省の公式データによると、2024年の東京都八王子市における不動産取引は全体で1,769件、平均取引価格は3,641万円でした。物件種別ごとに見ると、最も取引件数が多いのは「宅地(土地と建物)」の794件で平均価格は4,653万円です。次いで「中古マンション等」が723件で平均価格2,622万円となっており、この2つの種別が取引の大半を占めています。また「宅地(土地)」は239件で平均価格3,531万円、㎡単価平均132,131円を記録しています。林地(7件・平均965万円)や農地(6件・平均122万円)の取引も一部見られます。なお、宅地(土地と建物)や中古マンション等では㎡単価平均データは記録されていません。",
+    "propertyTrend": "人気地区ランキングでは1位の大和田町(71件、平均2,731万円)や2位の別所(69件、平均3,958万円)、3位の川口町(61件、平均2,147万円)を中心に取引が行われています。築年数帯別では、築26年以上の物件が618件(平均2,814万円)と最多で、築5年以内も301件(平均4,801万円)取引されています。面積帯別では80㎡〜が1,193件(平均4,291万円)と最も多く、〜30㎡(ワンルーム)も112件(平均824万円)取引されています。2021年から2024年にかけて、平均取引価格は+19.0%上昇している(年別推移: 2021年=2,203万円、2022年=2,470万円、2023年=2,705万円、2024年=2,622万円)。",
+    "yieldSimulation": "八王子市の中古マンション相場を基にした試算をご紹介します。対象種別「中古マンション等」の平均取引価格2,622万円を基に、仮に月額家賃を価格の0.5%(131,000円)と仮定すると、年間家賃収入は1,572,000円となり、表面利回りは約6.0%になる(1,572,000 ÷ 26,220,387 × 100 ≒ 6.0%)。このシミュレーションはあくまで一律の家賃想定に基づく一例であり、実際の収益は物件ごとの賃料設定や諸経費によって異なります。",
+    "lowEntryPitch": "総額を抑えて不動産投資を始めたい方は、小規模なワンルーム物件のデータが参考になります。面積帯「〜30㎡(ワンルーム)」は112件の取引があり、平均取引価格は824万円と、他の区分より総投資額を抑えやすい水準になっている(利回り%が他区分より高いという意味ではなく、あくまで総額が低いという事実)。初期の投資規模を抑えた運用を検討する際の目安となります。",
+    "agentComment": "宅地建物取引士としてデータを分析すると、八王子市では築26年以上の物件が618件取引されるなど、築古物件や中古マンションが一定の流通量を持っていることを確認しています。投資検討にあたっては、単に購入価格だけでなく周辺の賃貸ニーズや物件コンディションを総合的に確認することが重要であると感じています。",
+    "beginnerTips": "八王子市で不動産投資を検討する初心者の方は、地区や物件種別による価格帯の違いを把握することが重要です。大和田町や別所など人気地区ごとに特性が異なるため、交通利便性や周辺環境の実地確認が欠かせません。また、築年数が経過した物件を検討する際は将来の修繕費用や管理状態の確認が必要です。表面上の数値だけでなく、実際の維持管理コストや空室リスクを踏まえた慎重な計画を提示・検討することが推奨されます。"
+  },
+  "generatedAt": "2026-09-15T19:32:38.362Z"
+}
