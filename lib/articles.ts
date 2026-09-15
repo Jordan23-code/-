@@ -75,19 +75,36 @@ export type Article = {
 };
 
 const ARTICLES_DIR = path.join(process.cwd(), "content", "articles");
+const VACATION_HOMES_DIR = path.join(process.cwd(), "content", "vacation-homes");
 
-export function getAllArticles(): Article[] {
-  if (!fs.existsSync(ARTICLES_DIR)) return [];
-  const files = fs.readdirSync(ARTICLES_DIR).filter((f) => f.endsWith(".json"));
+function getAllFrom(dir: string): Article[] {
+  if (!fs.existsSync(dir)) return [];
+  const files = fs.readdirSync(dir).filter((f) => f.endsWith(".json"));
   const articles = files.map((f) => {
-    const raw = fs.readFileSync(path.join(ARTICLES_DIR, f), "utf-8");
+    const raw = fs.readFileSync(path.join(dir, f), "utf-8");
     return JSON.parse(raw) as Article;
   });
   return articles.sort((a, b) => (a.generatedAt < b.generatedAt ? 1 : -1));
 }
 
-export function getArticleBySlug(slug: string): Article | null {
-  const filePath = path.join(ARTICLES_DIR, `${slug}.json`);
+function getFromBySlug(dir: string, slug: string): Article | null {
+  const filePath = path.join(dir, `${slug}.json`);
   if (!fs.existsSync(filePath)) return null;
   return JSON.parse(fs.readFileSync(filePath, "utf-8")) as Article;
+}
+
+export function getAllArticles(): Article[] {
+  return getAllFrom(ARTICLES_DIR);
+}
+
+export function getArticleBySlug(slug: string): Article | null {
+  return getFromBySlug(ARTICLES_DIR, slug);
+}
+
+export function getAllVacationHomes(): Article[] {
+  return getAllFrom(VACATION_HOMES_DIR);
+}
+
+export function getVacationHomeBySlug(slug: string): Article | null {
+  return getFromBySlug(VACATION_HOMES_DIR, slug);
 }
