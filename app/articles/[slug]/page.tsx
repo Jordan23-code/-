@@ -1,7 +1,31 @@
 import Link from "next/link";
+import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { getArticleBySlug } from "@/lib/articles";
 import AffiliateBanner from "@/components/AffiliateBanner";
+
+export async function generateMetadata({
+  params,
+}: {
+  params: { slug: string };
+}): Promise<Metadata> {
+  const article = getArticleBySlug(params.slug);
+  if (!article) return {};
+
+  const avgMan = Math.round(article.stats.avgTradePrice / 10000).toLocaleString();
+  const title = `${article.title} | 郊外不動産投資ラボ(仮)`;
+  const description = `${article.prefecture}${article.city}の不動産投資データを解説。${article.year}年の取引件数${article.stats.count}件・平均価格${avgMan}万円を、国土交通省の公式データと宅建士の実務目線で分析。人気地区ランキングや築年数帯・面積帯別の相場も掲載。`;
+
+  return {
+    title,
+    description,
+    openGraph: {
+      title,
+      description,
+      images: article.heroImage ? [{ url: article.heroImage.url }] : undefined,
+    },
+  };
+}
 
 export default function ArticlePage({ params }: { params: { slug: string } }) {
   const article = getArticleBySlug(params.slug);

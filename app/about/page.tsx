@@ -1,4 +1,11 @@
 import Link from "next/link";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "運営者情報・免責事項 | 郊外不動産投資ラボ(仮)",
+  description:
+    "郊外不動産投資ラボ(仮)の運営者情報、データの出典、免責事項、広告に関する開示情報です。",
+};
 
 export default function AboutPage() {
   return (
