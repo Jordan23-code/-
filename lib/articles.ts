@@ -76,6 +76,7 @@ export type Article = {
 
 const ARTICLES_DIR = path.join(process.cwd(), "content", "articles");
 const VACATION_HOMES_DIR = path.join(process.cwd(), "content", "vacation-homes");
+const APARTMENT_MANAGEMENT_DIR = path.join(process.cwd(), "content", "apartment-management");
 
 function getAllFrom(dir: string): Article[] {
   if (!fs.existsSync(dir)) return [];
@@ -107,4 +108,12 @@ export function getAllVacationHomes(): Article[] {
 
 export function getVacationHomeBySlug(slug: string): Article | null {
   return getFromBySlug(VACATION_HOMES_DIR, slug);
+}
+
+export function getAllApartmentArticles(): Article[] {
+  return getAllFrom(APARTMENT_MANAGEMENT_DIR);
+}
+
+export function getApartmentArticleBySlug(slug: string): Article | null {
+  return getFromBySlug(APARTMENT_MANAGEMENT_DIR, slug);
 }

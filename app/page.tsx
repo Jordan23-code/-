@@ -59,6 +59,9 @@ export default function Home() {
         <Link href="/vacation-homes" className="underline">
           別荘・空き家リノベラボはこちら
         </Link>
+        <Link href="/apartment-management" className="underline">
+          アパート経営ラボはこちら
+        </Link>
         <Link href="/about" className="underline">
           運営者情報・免責事項
         </Link>
