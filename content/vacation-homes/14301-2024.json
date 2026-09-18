@@ -1,0 +1,229 @@
+{
+  "slug": "14301-2024",
+  "title": "【2024年葉山町】セカンドハウス・格安の古い別荘相場と空き家リノベ市場データ解説",
+  "prefecture": "神奈川県",
+  "city": "葉山町",
+  "cityCode": "14301",
+  "year": "2024",
+  "quarter": null,
+  "stats": {
+    "count": 106,
+    "avgTradePrice": 54735849,
+    "minTradePrice": 10000000,
+    "maxTradePrice": 350000000,
+    "avgUnitPrice": 230950,
+    "sampleDistricts": [
+      "堀内",
+      "下山口",
+      "一色",
+      "長柄",
+      "木古庭"
+    ]
+  },
+  "byType": {
+    "宅地(土地と建物)": {
+      "count": 60,
+      "avgTradePrice": 58266667,
+      "minTradePrice": 12000000,
+      "maxTradePrice": 350000000,
+      "avgUnitPrice": null,
+      "sampleDistricts": [
+        "堀内",
+        "下山口",
+        "長柄",
+        "一色",
+        "木古庭"
+      ]
+    },
+    "中古マンション等": {
+      "count": 26,
+      "avgTradePrice": 55807692,
+      "minTradePrice": 13000000,
+      "maxTradePrice": 120000000,
+      "avgUnitPrice": null,
+      "sampleDistricts": [
+        "堀内",
+        "一色"
+      ]
+    },
+    "宅地(土地)": {
+      "count": 20,
+      "avgTradePrice": 42750000,
+      "minTradePrice": 10000000,
+      "maxTradePrice": 150000000,
+      "avgUnitPrice": 230950,
+      "sampleDistricts": [
+        "一色",
+        "長柄",
+        "下山口",
+        "堀内",
+        "木古庭"
+      ]
+    }
+  },
+  "yieldSim": {
+    "targetType": "中古マンション等",
+    "avgTradePrice": 55807692,
+    "assumedMonthlyRent": 279000,
+    "annualRent": 3348000,
+    "yieldPct": "6.0"
+  },
+  "districtRanking": [
+    {
+      "district": "一色",
+      "count": 34,
+      "avgTradePrice": 50029412
+    },
+    {
+      "district": "堀内",
+      "count": 33,
+      "avgTradePrice": 62060606
+    },
+    {
+      "district": "長柄",
+      "count": 23,
+      "avgTradePrice": 48173913
+    },
+    {
+      "district": "下山口",
+      "count": 14,
+      "avgTradePrice": 63928571
+    },
+    {
+      "district": "木古庭",
+      "count": 2,
+      "avgTradePrice": 25000000
+    }
+  ],
+  "ageBand": {
+    "築5年以内": {
+      "count": 8,
+      "avgTradePrice": 68375000,
+      "minTradePrice": 44000000,
+      "maxTradePrice": 140000000,
+      "avgUnitPrice": null,
+      "sampleDistricts": [
+        "堀内",
+        "一色",
+        "下山口",
+        "長柄"
+      ]
+    },
+    "築6〜15年": {
+      "count": 7,
+      "avgTradePrice": 124285714,
+      "minTradePrice": 29000000,
+      "maxTradePrice": 350000000,
+      "avgUnitPrice": null,
+      "sampleDistricts": [
+        "堀内",
+        "下山口",
+        "長柄"
+      ]
+    },
+    "築16〜25年": {
+      "count": 33,
+      "avgTradePrice": 53848485,
+      "minTradePrice": 20000000,
+      "maxTradePrice": 120000000,
+      "avgUnitPrice": null,
+      "sampleDistricts": [
+        "堀内",
+        "一色",
+        "長柄",
+        "下山口"
+      ]
+    },
+    "築26年以上": {
+      "count": 37,
+      "avgTradePrice": 45702703,
+      "minTradePrice": 12000000,
+      "maxTradePrice": 110000000,
+      "avgUnitPrice": null,
+      "sampleDistricts": [
+        "下山口",
+        "堀内",
+        "長柄",
+        "一色",
+        "木古庭"
+      ]
+    }
+  },
+  "areaBand": {
+    "50〜80㎡(ファミリー)": {
+      "count": 19,
+      "avgTradePrice": 45210526,
+      "minTradePrice": 13000000,
+      "maxTradePrice": 85000000,
+      "avgUnitPrice": 740000,
+      "sampleDistricts": [
+        "堀内",
+        "一色",
+        "長柄"
+      ]
+    },
+    "80㎡〜(広め)": {
+      "count": 87,
+      "avgTradePrice": 56816092,
+      "minTradePrice": 10000000,
+      "maxTradePrice": 350000000,
+      "avgUnitPrice": 204158,
+      "sampleDistricts": [
+        "堀内",
+        "下山口",
+        "一色",
+        "長柄",
+        "木古庭"
+      ]
+    }
+  },
+  "priceTrend": {
+    "trend": [
+      {
+        "year": 2021,
+        "count": 15,
+        "avgTradePrice": 38640000
+      },
+      {
+        "year": 2022,
+        "count": 28,
+        "avgTradePrice": 56500000
+      },
+      {
+        "year": 2023,
+        "count": 35,
+        "avgTradePrice": 56165714
+      },
+      {
+        "year": 2024,
+        "count": 26,
+        "avgTradePrice": 55807692
+      }
+    ],
+    "firstYear": 2021,
+    "lastYear": 2024,
+    "changePct": "44.4"
+  },
+  "lowEntry": {
+    "source": "面積帯",
+    "label": "50〜80㎡(ファミリー)",
+    "count": 19,
+    "avgTradePrice": 45210526
+  },
+  "heroImage": {
+    "url": "https://images.pexels.com/photos/2187604/pexels-photo-2187604.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "葉山町のイメージ写真(実際の物件ではありません)",
+    "photographer": "Evgeny Tchebotarev",
+    "photographerUrl": "https://www.pexels.com/@evgeny-tchebotarev-1058775",
+    "pageUrl": "https://www.pexels.com/photo/houses-in-a-rural-area-2187604/"
+  },
+  "sections": {
+    "overview": "2024年の神奈川県葉山町における不動産取引データによると、全体取引件数は106件、平均取引価格は5,474万円、価格帯は1,000万円から35,000万円となっています。物件種別ごとの内訳を見ると、宅地(土地と建物)が60件で平均5,827万円、中古マンション等が26件で平均5,581万円となっており、これら2つの種別では㎡単価平均データが記録されていません。一方で、宅地(土地)は20件の取引があり、平均価格は4,275万円、㎡単価平均は230,950円を記録しています。このように種別ごとに取引実績や平均価格帯に違いが見られます。",
+    "propertyTrend": "地区別の取引動向では、1位の一色が34件（平均5,003万円）、2位の堀内が33件（平均6,206万円）と多く、3位長柄23件（平均4,817万円）、4位下山口14件（平均6,393万円）、5位木古庭2件（平均2,500万円）と続いています。築年数帯別では築26年以上が37件（平均4,570万円）、築16〜25年が33件（平均5,385万円）と中心であり、築5年以内は8件（平均6,838万円）、築6〜15年は7件（平均12,429万円）です。面積帯は80㎡〜(広め)が87件（平均5,682万円）と大半を占め、50〜80㎡(ファミリー)は19件（平均4,521万円）となっています。なお、2021年から2024年にかけて、平均取引価格は+44.4%上昇している(年別推移: 2021年=3,864万円、2022年=5,650万円、2023年=5,617万円、2024年=5,581万円)という推移を示しています。",
+    "yieldSimulation": "葉山町エリアで取得した物件を将来的に賃貸活用する場合のシミュレーションです。対象種別「中古マンション等」の平均取引価格5,581万円を基に、仮に月額家賃を価格の0.5%(279,000円)と仮定すると、年間家賃収入は3,348,000円となり、表面利回りは約6.0%になる(3,348,000 ÷ 55,807,692 × 100 ≒ 6.0%)。この計算はあくまで一定の家賃想定に基づく試算の一例であり、実際の収益や賃貸需要を保証するものではありません。",
+    "lowEntryPitch": "葉山町でセカンドハウスの購入やDIYリノベーションを検討する際、初期費用を抑えたい場合の指標となるのが面積帯別のデータです。面積帯「50〜80㎡(ファミリー)」は19件の取引があり、平均取引価格は4,521万円と、他の区分より総投資額を抑えやすい水準になっている(利回り%が他区分より高いという意味ではなく、あくまで総額が低いという事実)。購入時の総額を低く抑えたい方に適した区分と言えます。",
+    "agentComment": "葉山町の不動産市場は、築16年以上の物件や80㎡以上の広め物件が取引の中心です。平均取引価格は5,474万円ですが、築26年以上や50〜80㎡区分では4,000万円台の取引も見られます。セカンドハウス検討の際は総投資額を抑えた物件選択が選択肢となります。表面利回りの試算では概ね6%前後が目安ですが、これは一律の想定家賃に基づく参考値であり、エリア間の優劣を示すものではありません。また、別荘・セカンドハウス向けの物件は住宅ローンの対象外となる金融機関が多く、購入方法の確認が必要な点にもご注意ください。",
+    "beginnerTips": "葉山町で空き家や別荘を探す際は、一般的な住宅選びとは異なる視点が求められます。海や山に近い環境特有の湿気対策や建物・水道管の管理状態、塩害などの維持管理コストの確認が必要です。また、最寄り駅からのアクセスやバス路線の利便性、細い路地の車横付け可否などの交通条件も重要となります。さらに、自治体が運営する空き家バンク制度や補助金の有無、活用条件などを事前に調べることで、リノベーションや購入後の維持計画をより円滑に進めることができます。"
+  },
+  "generatedAt": "2026-09-15T20:11:34.486Z"
+}

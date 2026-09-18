@@ -509,6 +509,14 @@ ${lowEntryText}
     if (res.ok) break;
 
     lastErrorText = await res.text();
+    const isDailyQuotaExceeded =
+      res.status === 429 && /PerDay/i.test(lastErrorText);
+    if (isDailyQuotaExceeded) {
+      throw new Error(
+        `Gemini APIエラー (${res.status}): 1日の無料枠(合計20回)を使い切りました。太平洋時間の深夜0時(日本時間 午後4時頃)にリセットされるので、それ以降に再試行してください。
+${lastErrorText}`
+      );
+    }
     const shouldRetry = RETRYABLE_STATUS.has(res.status) && attempt < MAX_RETRIES;
     if (!shouldRetry) {
       throw new Error(`Gemini APIエラー (${res.status}): ${lastErrorText}`);

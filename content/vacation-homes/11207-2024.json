@@ -1,0 +1,258 @@
+{
+  "slug": "11207-2024",
+  "title": "【2024年】埼玉県秩父市の空き家・別荘相場！格安物件で叶えるセカンドハウス",
+  "prefecture": "埼玉県",
+  "city": "秩父市",
+  "cityCode": "11207",
+  "year": "2024",
+  "quarter": null,
+  "stats": {
+    "count": 109,
+    "avgTradePrice": 11462569,
+    "minTradePrice": 50000,
+    "maxTradePrice": 150000000,
+    "avgUnitPrice": 22652,
+    "sampleDistricts": [
+      "上影森",
+      "上宮地町",
+      "熊木町",
+      "下吉田",
+      "和泉町",
+      "大野原",
+      "黒谷",
+      "山田"
+    ]
+  },
+  "byType": {
+    "宅地(土地)": {
+      "count": 71,
+      "avgTradePrice": 9404507,
+      "minTradePrice": 100000,
+      "maxTradePrice": 50000000,
+      "avgUnitPrice": 22652,
+      "sampleDistricts": [
+        "上影森",
+        "上宮地町",
+        "熊木町",
+        "下吉田",
+        "和泉町",
+        "大野原",
+        "黒谷",
+        "相生町"
+      ]
+    },
+    "宅地(土地と建物)": {
+      "count": 33,
+      "avgTradePrice": 17412121,
+      "minTradePrice": 100000,
+      "maxTradePrice": 150000000,
+      "avgUnitPrice": null,
+      "sampleDistricts": [
+        "上宮地町",
+        "大野原",
+        "黒谷",
+        "山田",
+        "上町",
+        "久那",
+        "日野田町",
+        "吉田久長"
+      ]
+    },
+    "林地": {
+      "count": 5,
+      "avgTradePrice": 1420000,
+      "minTradePrice": 50000,
+      "maxTradePrice": 6000000,
+      "avgUnitPrice": null,
+      "sampleDistricts": [
+        "下吉田",
+        "吉田石間",
+        "栃谷",
+        "大滝"
+      ]
+    }
+  },
+  "yieldSim": {
+    "targetType": "宅地(土地と建物)",
+    "avgTradePrice": 17412121,
+    "assumedMonthlyRent": 87000,
+    "annualRent": 1044000,
+    "yieldPct": "6.0"
+  },
+  "districtRanking": [
+    {
+      "district": "大野原",
+      "count": 18,
+      "avgTradePrice": 9665000
+    },
+    {
+      "district": "下吉田",
+      "count": 9,
+      "avgTradePrice": 2577778
+    },
+    {
+      "district": "上影森",
+      "count": 8,
+      "avgTradePrice": 8675000
+    },
+    {
+      "district": "上宮地町",
+      "count": 5,
+      "avgTradePrice": 22800000
+    },
+    {
+      "district": "上町",
+      "count": 5,
+      "avgTradePrice": 17400000
+    },
+    {
+      "district": "下影森",
+      "count": 5,
+      "avgTradePrice": 5700000
+    },
+    {
+      "district": "栃谷",
+      "count": 5,
+      "avgTradePrice": 11820000
+    },
+    {
+      "district": "寺尾",
+      "count": 5,
+      "avgTradePrice": 7620000
+    }
+  ],
+  "ageBand": {
+    "築5年以内": {
+      "count": 3,
+      "avgTradePrice": 22333333,
+      "minTradePrice": 20000000,
+      "maxTradePrice": 25000000,
+      "avgUnitPrice": null,
+      "sampleDistricts": [
+        "大野原",
+        "上町",
+        "寺尾"
+      ]
+    },
+    "築6〜15年": {
+      "count": 2,
+      "avgTradePrice": 10500000,
+      "minTradePrice": 3000000,
+      "maxTradePrice": 18000000,
+      "avgUnitPrice": null,
+      "sampleDistricts": [
+        "大野原",
+        "近戸町"
+      ]
+    },
+    "築16〜25年": {
+      "count": 5,
+      "avgTradePrice": 11060000,
+      "minTradePrice": 1300000,
+      "maxTradePrice": 17000000,
+      "avgUnitPrice": null,
+      "sampleDistricts": [
+        "山田",
+        "大野原",
+        "上宮地町"
+      ]
+    },
+    "築26年以上": {
+      "count": 17,
+      "avgTradePrice": 18523529,
+      "minTradePrice": 100000,
+      "maxTradePrice": 150000000,
+      "avgUnitPrice": null,
+      "sampleDistricts": [
+        "黒谷",
+        "上町",
+        "久那",
+        "吉田久長",
+        "荒川贄川",
+        "野坂町",
+        "大野原",
+        "桜木町"
+      ]
+    }
+  },
+  "areaBand": {
+    "50〜80㎡(ファミリー)": {
+      "count": 3,
+      "avgTradePrice": 2656667,
+      "minTradePrice": 470000,
+      "maxTradePrice": 4300000,
+      "avgUnitPrice": 38767,
+      "sampleDistricts": [
+        "熊木町",
+        "大野原",
+        "中町"
+      ]
+    },
+    "80㎡〜(広め)": {
+      "count": 106,
+      "avgTradePrice": 11711792,
+      "minTradePrice": 50000,
+      "maxTradePrice": 150000000,
+      "avgUnitPrice": 21941,
+      "sampleDistricts": [
+        "上影森",
+        "上宮地町",
+        "下吉田",
+        "和泉町",
+        "大野原",
+        "黒谷",
+        "山田",
+        "相生町"
+      ]
+    }
+  },
+  "priceTrend": {
+    "trend": [
+      {
+        "year": 2021,
+        "count": 40,
+        "avgTradePrice": 15476250
+      },
+      {
+        "year": 2022,
+        "count": 30,
+        "avgTradePrice": 12103333
+      },
+      {
+        "year": 2023,
+        "count": 30,
+        "avgTradePrice": 16690367
+      },
+      {
+        "year": 2024,
+        "count": 33,
+        "avgTradePrice": 17412121
+      }
+    ],
+    "firstYear": 2021,
+    "lastYear": 2024,
+    "changePct": "12.5"
+  },
+  "lowEntry": {
+    "source": "面積帯",
+    "label": "80㎡〜(広め)",
+    "count": 106,
+    "avgTradePrice": 11711792
+  },
+  "heroImage": {
+    "url": "https://images.pexels.com/photos/28251136/pexels-photo-28251136.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "秩父市のイメージ写真(実際の物件ではありません)",
+    "photographer": "NaturEye Conservation",
+    "photographerUrl": "https://www.pexels.com/@natureye",
+    "pageUrl": "https://www.pexels.com/photo/shirakawa-go-traditional-straw-roof-house-entrance-28251136/"
+  },
+  "sections": {
+    "overview": "2024年の埼玉県秩父市における不動産取引データによると、全体の取引件数は109件で、平均取引価格は1,146万円となっています。物件種別ごとの内訳を見ると、宅地(土地)が71件で平均940万円（㎡単価平均22,652円）、宅地(土地と建物)が33件で平均1,741万円となっており、土地のみの取引が主流を占めています。また、林地の取引も5件あり、平均取引価格は142万円です。なお、宅地(土地と建物)および林地では㎡単価データが記録されていません。価格帯は5万円から15,000万円と幅広く、用途や物件条件により取引金額が大きく異なります。",
+    "propertyTrend": "取引件数が最も多い地区は大野原の18件（平均967万円）で、次いで下吉田の9件（平均258万円）、上影森の8件（平均868万円）と続きます。築年数帯別では、築26年以上が17件（平均1,852万円）と最も多く、築5年以内は3件（平均2,233万円）となっています。面積帯別では、80㎡〜(広め)が106件（平均1,171万円）と大半を占めており、広めの物件が中心に取引されている状況です。複数年の価格推移を見ると、2021年から2024年にかけて、平均取引価格は+12.5%上昇している(年別推移: 2021年=1,548万円、2022年=1,210万円、2023年=1,669万円、2024年=1,741万円)。需要や物件構成の変化が価格水準に現れています。",
+    "yieldSimulation": "賃貸運用を検討する場合の一例として利回り試算をご紹介します。対象種別「宅地(土地と建物)」の平均取引価格1,741万円を基に、仮に月額家賃を価格の0.5%(87,000円)と仮定すると、年間家賃収入は1,044,000円となり、表面利回率は約6.0%になる(1,044,000 ÷ 17,412,121 × 100 ≒ 6.0%)。この数値は実際の賃貸需要や個別の維持管理費、リノベーション費用等を考慮していない概算シミュレーションであり、収益を保証するものではありません。",
+    "lowEntryPitch": "セカンドハウスやDIYリノベーションの拠点を検討中の方にとって、初期費用を抑えられる区分は魅力的な選択肢です。面積帯「80㎡〜(広め)」は106件の取引があり、平均取引価格は1,171万円と、他の区分より総投資額を抑えやすい水準になっている(利回り%が他区分より高いという意味ではなく、あくまで総額が低いという事実)。広さを活かしたセカンドハウス利用の検討におすすめです。",
+    "agentComment": "埼玉県秩父市は土地取引が中心でありつつも、広めの戸建て物件などが比較的抑えられた総額で取引されているエリアです。人気の大野原や下吉田など地区ごとの価格帯も多様であり、セカンドハウスや拠点探しに適した選択肢が存在します。表面利回りの試算では概ね6%前後が目安ですが、これは一律の想定家賃に基づく参考値であり、エリア間の優劣を示すものではありません。また、別荘・セカンドハウス向けの物件は住宅ローンの対象外となる金融機関が多く、購入方法の確認が必要な点にもご注意ください。",
+    "beginnerTips": "秩父市で空き家や別荘の購入を検討する際は、地域特有の環境やインフラの確認が欠かせません。冬季の積雪や路面凍結、水道管の凍結防止対策などの維持管理面を事前に調べておきましょう。また、主要駅や都心からのアクセスルート、日常の買い物環境なども要確認ポイントです。さらに、自治体が運営する空き家バンク制度や移住・活用支援策の有無、補助金制度が利用可能かどうかも事前に確認しておくことで、スムーズなセカンドハウス計画が進められます。"
+  },
+  "generatedAt": "2026-09-18T17:02:32.919Z"
+}
