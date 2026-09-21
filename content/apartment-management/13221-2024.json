@@ -1,0 +1,310 @@
+{
+  "slug": "13221-2024",
+  "title": "【2024年東京都清瀬市】大家のためのアパート経営・賃貸経営市場データ分析",
+  "prefecture": "東京都",
+  "city": "清瀬市",
+  "cityCode": "13221",
+  "year": "2024",
+  "quarter": null,
+  "stats": {
+    "count": 242,
+    "avgTradePrice": 35180579,
+    "minTradePrice": 2000000,
+    "maxTradePrice": 260000000,
+    "avgUnitPrice": 235975,
+    "sampleDistricts": [
+      "梅園",
+      "下清戸",
+      "元町",
+      "旭が丘",
+      "下宿",
+      "竹丘",
+      "中里",
+      "野塩"
+    ]
+  },
+  "byType": {
+    "宅地(土地と建物)": {
+      "count": 123,
+      "avgTradePrice": 39764228,
+      "minTradePrice": 7000000,
+      "maxTradePrice": 120000000,
+      "avgUnitPrice": null,
+      "sampleDistricts": [
+        "梅園",
+        "元町",
+        "旭が丘",
+        "下清戸",
+        "下宿",
+        "竹丘",
+        "中里",
+        "野塩"
+      ]
+    },
+    "宅地(土地)": {
+      "count": 40,
+      "avgTradePrice": 44625000,
+      "minTradePrice": 5000000,
+      "maxTradePrice": 260000000,
+      "avgUnitPrice": 235975,
+      "sampleDistricts": [
+        "下清戸",
+        "竹丘",
+        "中里",
+        "野塩",
+        "中清戸",
+        "上清戸",
+        "下宿",
+        "元町"
+      ]
+    },
+    "中古マンション等": {
+      "count": 79,
+      "avgTradePrice": 23262025,
+      "minTradePrice": 2000000,
+      "maxTradePrice": 49000000,
+      "avgUnitPrice": null,
+      "sampleDistricts": [
+        "元町",
+        "旭が丘",
+        "中里",
+        "松山",
+        "竹丘",
+        "野塩",
+        "上清戸",
+        "梅園"
+      ]
+    }
+  },
+  "yieldSim": {
+    "targetType": "中古マンション等",
+    "avgTradePrice": 23262025,
+    "assumedMonthlyRent": 116000,
+    "annualRent": 1392000,
+    "yieldPct": "6.0"
+  },
+  "districtRanking": [
+    {
+      "district": "中里",
+      "count": 55,
+      "avgTradePrice": 33994545
+    },
+    {
+      "district": "元町",
+      "count": 37,
+      "avgTradePrice": 36278378
+    },
+    {
+      "district": "松山",
+      "count": 24,
+      "avgTradePrice": 37491667
+    },
+    {
+      "district": "竹丘",
+      "count": 23,
+      "avgTradePrice": 34000000
+    },
+    {
+      "district": "野塩",
+      "count": 23,
+      "avgTradePrice": 45913043
+    },
+    {
+      "district": "中清戸",
+      "count": 23,
+      "avgTradePrice": 41521739
+    },
+    {
+      "district": "旭が丘",
+      "count": 16,
+      "avgTradePrice": 16681250
+    },
+    {
+      "district": "下宿",
+      "count": 12,
+      "avgTradePrice": 26833333
+    }
+  ],
+  "ageBand": {
+    "築5年以内": {
+      "count": 65,
+      "avgTradePrice": 47984615,
+      "minTradePrice": 30000000,
+      "maxTradePrice": 120000000,
+      "avgUnitPrice": null,
+      "sampleDistricts": [
+        "梅園",
+        "元町",
+        "下宿",
+        "竹丘",
+        "中里",
+        "野塩",
+        "松山",
+        "中清戸"
+      ]
+    },
+    "築6〜15年": {
+      "count": 28,
+      "avgTradePrice": 34285714,
+      "minTradePrice": 23000000,
+      "maxTradePrice": 85000000,
+      "avgUnitPrice": null,
+      "sampleDistricts": [
+        "元町",
+        "下清戸",
+        "下宿",
+        "中里",
+        "松山",
+        "中清戸",
+        "梅園",
+        "旭が丘"
+      ]
+    },
+    "築16〜25年": {
+      "count": 36,
+      "avgTradePrice": 34750000,
+      "minTradePrice": 10000000,
+      "maxTradePrice": 49000000,
+      "avgUnitPrice": null,
+      "sampleDistricts": [
+        "元町",
+        "松山",
+        "竹丘",
+        "中里",
+        "上清戸",
+        "下清戸",
+        "野塩",
+        "中清戸"
+      ]
+    },
+    "築26年以上": {
+      "count": 67,
+      "avgTradePrice": 18152239,
+      "minTradePrice": 2000000,
+      "maxTradePrice": 110000000,
+      "avgUnitPrice": null,
+      "sampleDistricts": [
+        "元町",
+        "旭が丘",
+        "中里",
+        "松山",
+        "中清戸",
+        "下宿",
+        "竹丘",
+        "野塩"
+      ]
+    }
+  },
+  "areaBand": {
+    "〜30㎡(ワンルーム)": {
+      "count": 7,
+      "avgTradePrice": 4614286,
+      "minTradePrice": 4000000,
+      "maxTradePrice": 5700000,
+      "avgUnitPrice": null,
+      "sampleDistricts": [
+        "松山",
+        "元町",
+        "野塩"
+      ]
+    },
+    "30〜50㎡(コンパクト)": {
+      "count": 13,
+      "avgTradePrice": 15492308,
+      "minTradePrice": 4800000,
+      "maxTradePrice": 36000000,
+      "avgUnitPrice": null,
+      "sampleDistricts": [
+        "中里",
+        "中清戸",
+        "上清戸",
+        "旭が丘",
+        "元町",
+        "野塩",
+        "松山"
+      ]
+    },
+    "50〜80㎡(ファミリー)": {
+      "count": 64,
+      "avgTradePrice": 24218750,
+      "minTradePrice": 2000000,
+      "maxTradePrice": 49000000,
+      "avgUnitPrice": 242500,
+      "sampleDistricts": [
+        "元町",
+        "旭が丘",
+        "中里",
+        "松山",
+        "上清戸",
+        "竹丘",
+        "野塩"
+      ]
+    },
+    "80㎡〜(広め)": {
+      "count": 158,
+      "avgTradePrice": 42594937,
+      "minTradePrice": 5000000,
+      "maxTradePrice": 260000000,
+      "avgUnitPrice": 235250,
+      "sampleDistricts": [
+        "梅園",
+        "下清戸",
+        "元町",
+        "旭が丘",
+        "下宿",
+        "竹丘",
+        "中里",
+        "野塩"
+      ]
+    }
+  },
+  "priceTrend": {
+    "trend": [
+      {
+        "year": 2021,
+        "count": 82,
+        "avgTradePrice": 23809756
+      },
+      {
+        "year": 2022,
+        "count": 81,
+        "avgTradePrice": 24058025
+      },
+      {
+        "year": 2023,
+        "count": 69,
+        "avgTradePrice": 21759420
+      },
+      {
+        "year": 2024,
+        "count": 79,
+        "avgTradePrice": 23262025
+      }
+    ],
+    "firstYear": 2021,
+    "lastYear": 2024,
+    "changePct": "-2.3"
+  },
+  "lowEntry": {
+    "source": "面積帯",
+    "label": "30〜50㎡(コンパクト)",
+    "count": 13,
+    "avgTradePrice": 15492308
+  },
+  "heroImage": {
+    "url": "https://images.pexels.com/photos/36879875/pexels-photo-36879875.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "清瀬市のイメージ写真(実際の物件ではありません)",
+    "photographer": "Iban Lopez Luna",
+    "photographerUrl": "https://www.pexels.com/@iban-lopez-luna-2159602676",
+    "pageUrl": "https://www.pexels.com/photo/high-rise-building-in-tokyo-surrounded-by-sakura-36879875/"
+  },
+  "sections": {
+    "overview": "2024年の東京都清瀬市における不動産市場データによれば、全体での取引件数は242件、平均取引価格は3,518万円となっています。物件種別ごとに見ると、宅地(土地と建物)は123件で平均3,976万円、㎡単価平均データなし(この種別では㎡単価が記録されていません)。中古マンション等は79件で平均2,326万円、㎡単価平均データなし(この種別では㎡単価が記録されていません)。宅地(土地)は40件で平均4,463万円、㎡単価平均235,975円でした。賃貸経営を検討するにあたっては、建物付き土地と中古マンション等で平均価格に差があるという取引の実態を踏まえて事業計画を立てることが重要です。",
+    "propertyTrend": "清瀬市の取引件数ランキングでは、1位中里(55件、平均3,399万円)、2位元町(37件、平均3,628万円)をはじめ、松山、竹丘、野塩などで取引が見られます。築年数帯では築5年以内が65件(平均4,798万円)、築26年以上が67件(平均1,815万円)と多く、築6〜15年は28件(平均3,429万円)、築16〜25年は36件(平均3,475万円)です。面積帯では80㎡〜(広め)が158件(平均4,259万円)、50〜80㎡が64件(平均2,422万円)と主流で、〜30㎡は7件(平均461万円)、30〜50㎡は13件(平均1,549万円)です。価格推移としては、2021年から2024年にかけて、平均取引価格は-2.3%下落している(年別推移: 2021年=2,381万円、2022年=2,406万円、2023年=2,176万円、2024年=2,326万円)。空室リスクを抑えた運営のために需要を見極める必要があります。",
+    "yieldSimulation": "賃貸経営における収益指標の参考として、国土交通省のデータを基にした試算をご紹介します。対象種別「中古マンション等」の平均取引価格2,326万円を基に、仮に月額家賃を価格の0.5%(116,000円)と仮定すると、年間家賃収入は1,392,000円となり、表面利回りは約6.0%になる(1,392,000 ÷ 23,262,025 × 100 ≒ 6.0%)。本試算はアパート経営・賃貸経営における表面利回りの一例です。管理費や固定資産税などの諸経費は含まれていないため、実質利回りを算出して経営計画を検討してください。",
+    "lowEntryPitch": "複数戸所有によってリスク分散を図りつつ規模拡大を目指す大家・賃貸経営者にとって、購入総額を抑えられる物件は選択肢の一つとなります。清瀬市における面積帯「30〜50㎡(コンパクト)」は13件の取引があり、平均取引価格は1,549万円と、他の区分より総投資額を抑えやすい水準になっている(利回り%が他区分より高いという意味ではなく、あくまで総額が低いという事実)。初期投資を抑えて複数戸取得したい大家に適した区分です。",
+    "agentComment": "2024年の清瀬市市場では取引件数242件、平均取引価格3,518万円となっており、中里や元町を中心に幅広いエリアで取引が行われています。賃貸経営を成功させるには、安定した入居率を維持するための空室対策や信頼できる管理会社との連携が欠かせません。表面利回りの試算では概ね6%前後が目安ですが、これは一律の想定家賃に基づく参考値であり、エリア間の優劣を示すものではありません。また、アパートローンは住宅ローンとは異なり事業性融資として扱われ、金利や融資期間の条件が金融機関ごとに異なる点にご注意ください。",
+    "beginnerTips": "清瀬市でアパート経営や賃貸経営を始める初心者の方は、まず対象エリアの賃貸需要とターゲット層（単身者・ファミリー層など）を的確に見極めることが大切です。また、安定した家賃収入を得るためには空室リスクの軽減対策が必須であり、信頼できる管理会社への管理委託や、退去時の原状回復費用などの維持管理コストをあらかじめ収支計画に組み込むことが重要です。長期的な修繕計画や資金繰りを考慮し、無理のない事業計画を立てて参入しましょう。"
+  },
+  "generatedAt": "2026-09-19T23:39:00.040Z"
+}

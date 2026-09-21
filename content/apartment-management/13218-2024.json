@@ -1,0 +1,302 @@
+{
+  "slug": "13218-2024",
+  "title": "【2024年福生市】アパート経営・賃貸経営のデータ分析と大家向け投資相場解説",
+  "prefecture": "東京都",
+  "city": "福生市",
+  "cityCode": "13218",
+  "year": "2024",
+  "quarter": null,
+  "stats": {
+    "count": 178,
+    "avgTradePrice": 35798034,
+    "minTradePrice": 550000,
+    "maxTradePrice": 680000000,
+    "avgUnitPrice": 169500,
+    "sampleDistricts": [
+      "大字熊川",
+      "志茂",
+      "大字福生",
+      "本町",
+      "武蔵野台",
+      "牛浜",
+      "加美平",
+      "南田園"
+    ]
+  },
+  "byType": {
+    "宅地(土地)": {
+      "count": 44,
+      "avgTradePrice": 37480682,
+      "minTradePrice": 550000,
+      "maxTradePrice": 170000000,
+      "avgUnitPrice": 169500,
+      "sampleDistricts": [
+        "大字熊川",
+        "大字福生",
+        "本町",
+        "加美平",
+        "北田園",
+        "牛浜",
+        "南田園",
+        "志茂"
+      ]
+    },
+    "宅地(土地と建物)": {
+      "count": 93,
+      "avgTradePrice": 44706452,
+      "minTradePrice": 7600000,
+      "maxTradePrice": 680000000,
+      "avgUnitPrice": null,
+      "sampleDistricts": [
+        "大字熊川",
+        "大字福生",
+        "牛浜",
+        "加美平",
+        "南田園",
+        "北田園",
+        "志茂",
+        "武蔵野台"
+      ]
+    },
+    "中古マンション等": {
+      "count": 41,
+      "avgTradePrice": 13785366,
+      "minTradePrice": 3000000,
+      "maxTradePrice": 30000000,
+      "avgUnitPrice": null,
+      "sampleDistricts": [
+        "志茂",
+        "大字福生",
+        "武蔵野台",
+        "大字熊川",
+        "加美平",
+        "北田園",
+        "本町",
+        "東町"
+      ]
+    }
+  },
+  "yieldSim": {
+    "targetType": "中古マンション等",
+    "avgTradePrice": 13785366,
+    "assumedMonthlyRent": 69000,
+    "annualRent": 828000,
+    "yieldPct": "6.0"
+  },
+  "districtRanking": [
+    {
+      "district": "大字熊川",
+      "count": 55,
+      "avgTradePrice": 34920909
+    },
+    {
+      "district": "大字福生",
+      "count": 42,
+      "avgTradePrice": 50407143
+    },
+    {
+      "district": "加美平",
+      "count": 17,
+      "avgTradePrice": 40135294
+    },
+    {
+      "district": "武蔵野台",
+      "count": 16,
+      "avgTradePrice": 14112500
+    },
+    {
+      "district": "北田園",
+      "count": 12,
+      "avgTradePrice": 23691667
+    },
+    {
+      "district": "志茂",
+      "count": 11,
+      "avgTradePrice": 34209091
+    },
+    {
+      "district": "南田園",
+      "count": 10,
+      "avgTradePrice": 23760000
+    },
+    {
+      "district": "牛浜",
+      "count": 7,
+      "avgTradePrice": 36857143
+    }
+  ],
+  "ageBand": {
+    "築5年以内": {
+      "count": 38,
+      "avgTradePrice": 37657895,
+      "minTradePrice": 24000000,
+      "maxTradePrice": 53000000,
+      "avgUnitPrice": null,
+      "sampleDistricts": [
+        "大字熊川",
+        "大字福生",
+        "牛浜",
+        "加美平",
+        "南田園",
+        "北田園",
+        "武蔵野台",
+        "大字福生二宮"
+      ]
+    },
+    "築6〜15年": {
+      "count": 6,
+      "avgTradePrice": 37500000,
+      "minTradePrice": 31000000,
+      "maxTradePrice": 50000000,
+      "avgUnitPrice": null,
+      "sampleDistricts": [
+        "大字熊川",
+        "大字福生"
+      ]
+    },
+    "築16〜25年": {
+      "count": 11,
+      "avgTradePrice": 30272727,
+      "minTradePrice": 18000000,
+      "maxTradePrice": 81000000,
+      "avgUnitPrice": null,
+      "sampleDistricts": [
+        "南田園",
+        "大字熊川",
+        "志茂",
+        "加美平",
+        "北田園",
+        "本町"
+      ]
+    },
+    "築26年以上": {
+      "count": 72,
+      "avgTradePrice": 33790278,
+      "minTradePrice": 3000000,
+      "maxTradePrice": 680000000,
+      "avgUnitPrice": null,
+      "sampleDistricts": [
+        "大字熊川",
+        "志茂",
+        "大字福生",
+        "武蔵野台",
+        "加美平",
+        "南田園",
+        "北田園",
+        "本町"
+      ]
+    }
+  },
+  "areaBand": {
+    "〜30㎡(ワンルーム)": {
+      "count": 4,
+      "avgTradePrice": 4025000,
+      "minTradePrice": 3000000,
+      "maxTradePrice": 6000000,
+      "avgUnitPrice": null,
+      "sampleDistricts": [
+        "大字福生",
+        "武蔵野台"
+      ]
+    },
+    "30〜50㎡(コンパクト)": {
+      "count": 16,
+      "avgTradePrice": 7703125,
+      "minTradePrice": 550000,
+      "maxTradePrice": 15000000,
+      "avgUnitPrice": 37000,
+      "sampleDistricts": [
+        "武蔵野台",
+        "大字熊川",
+        "北田園",
+        "大字福生",
+        "加美平",
+        "南田園",
+        "志茂"
+      ]
+    },
+    "50〜80㎡(ファミリー)": {
+      "count": 36,
+      "avgTradePrice": 16527778,
+      "minTradePrice": 1700000,
+      "maxTradePrice": 30000000,
+      "avgUnitPrice": 70000,
+      "sampleDistricts": [
+        "大字熊川",
+        "志茂",
+        "大字福生",
+        "武蔵野台",
+        "加美平",
+        "本町",
+        "東町",
+        "北田園"
+      ]
+    },
+    "80㎡〜(広め)": {
+      "count": 122,
+      "avgTradePrice": 46210656,
+      "minTradePrice": 7200000,
+      "maxTradePrice": 680000000,
+      "avgUnitPrice": 183949,
+      "sampleDistricts": [
+        "大字熊川",
+        "大字福生",
+        "本町",
+        "牛浜",
+        "加美平",
+        "南田園",
+        "北田園",
+        "志茂"
+      ]
+    }
+  },
+  "priceTrend": {
+    "trend": [
+      {
+        "year": 2021,
+        "count": 72,
+        "avgTradePrice": 10912500
+      },
+      {
+        "year": 2022,
+        "count": 54,
+        "avgTradePrice": 12750000
+      },
+      {
+        "year": 2023,
+        "count": 62,
+        "avgTradePrice": 13969355
+      },
+      {
+        "year": 2024,
+        "count": 41,
+        "avgTradePrice": 13785366
+      }
+    ],
+    "firstYear": 2021,
+    "lastYear": 2024,
+    "changePct": "26.3"
+  },
+  "lowEntry": {
+    "source": "面積帯",
+    "label": "30〜50㎡(コンパクト)",
+    "count": 16,
+    "avgTradePrice": 7703125
+  },
+  "heroImage": {
+    "url": "https://images.pexels.com/photos/37760474/pexels-photo-37760474.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "福生市のイメージ写真(実際の物件ではありません)",
+    "photographer": "Iban Lopez Luna",
+    "photographerUrl": "https://www.pexels.com/@iban-lopez-luna-2159602676",
+    "pageUrl": "https://www.pexels.com/photo/modern-apartment-buildings-in-tokyo-japan-37760474/"
+  },
+  "sections": {
+    "overview": "2024年の東京都福生市における不動産取引データによると、全体の取引件数は178件、平均取引価格は3,580万円となっています。物件種別ごとの内訳を見ると、宅地(土地と建物)が93件（平均4,471万円、㎡単価平均データなし）と最も多く取引されています。次いで宅地(土地)が44件（平均3,748万円、㎡単価平均169,500円）、中古マンション等が41件（平均1,379万円、㎡単価平均データなし）となっています。一棟アパート等の新築や既存建物の取得を狙うか、区分所有物件を狙うかによって平均取引価格帯に大きな開きがある点が、福生市における賃貸経営上の特徴といえます。",
+    "propertyTrend": "福生市の取引傾向を地区別に見ると、1位の大字熊川（55件、平均3,492万円）、2位の大字福生（42件、平均5,041万円）が取引の大半を占めており、加美平（17件）や武蔵野台（16件）が続きます。築年数帯では築26年以上が72件、築5年以内が38件と多く、築浅物件から高築年物件まで賃貸需要の受け皿が存在しています。面積帯では80㎡〜が122件と主流ですが、30〜50㎡や50〜80㎡の取引も確認できます。価格推移としては、2021年から2024年にかけて、平均取引価格は+26.3%上昇している(年別推移: 2021年=1,091万円、2022年=1,275万円、2023年=1,397万円、2024年=1,379万円)。安定した賃貸経営に向けては、各地区・築年数・面積帯ごとの需要特性を見極め、空室リスクに配慮した運営が重要です。",
+    "yieldSimulation": "賃貸経営における収支イメージの参考として、国土交通省データに基づく試算をご紹介します。対象種別「中古マンション等」の平均取引価格1,379万円を基に、仮に月額家賃を価格の0.5%(69,000円)と仮定すると、年間家賃収入は828,000円となり、表面利回りは約6.0%になる(828,000 ÷ 13,785,366 × 100 ≒ 6.0%)。このシミュレーションはアパート経営・賃貸経営における表面利回りの一例であり、管理費や諸経費を考慮した実質利回りとは異なる点にご留意ください。",
+    "lowEntryPitch": "複数戸所有によってリスク分散を図りたい大家・賃貸経営者にとって、購入総額のコントロールは重要です。面積帯「30〜50㎡(コンパクト)」は16件の取引があり、平均取引価格は770万円と、他の区分より総投資額を抑えやすい水準になっている(利回り%が他区分より高いという意味ではなく、あくまで総額が低いという事実)。一頭買いに比べ少額から複数戸へ分散投資を進めたい大家にとって検討しやすい手法です。",
+    "agentComment": "福生市は取引件数178件、平均取引価格3,580万円であり、宅地(土地と建物)を中心に活発な取引が行われています。賃貸経営においては、ターゲット層に応じた適切なリフォームと迅速な空室対策、信頼できる管理会社の選定が安定運営のカギとなります。表面利回りの試算では概ね6%前後が目安ですが、これは一律の想定家賃に基づく参考値であり、エリア間の優劣を示すものではありません。また、アパートローンは住宅ローンとは異なり事業性融資として扱われ、金利や融資期間の条件が金融機関ごとに異なる点にご注意ください。",
+    "beginnerTips": "福生市でアパート経営や賃貸経営を始める初心者は、入居者のニーズと賃貸需要の慎重な見極めが不可欠です。最寄り駅からのアクセスや周辺の生活利便性を確認し、想定するターゲットに適した間取りか検証してください。また、退去時の原状回復費用や将来の大規模修繕コストを組み込んだ資金計画を立て、長期的な空室リスクに備える必要があります。さらに、管理委託先の対応力や賃料設定の適正度を定期的に見直し、収益の安定化を図る姿勢が賃貸経営の成功には不可欠といえます。"
+  },
+  "generatedAt": "2026-09-19T23:41:42.863Z"
+}
