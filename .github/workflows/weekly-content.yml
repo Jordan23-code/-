@@ -1,0 +1,64 @@
+name: 週次コンテンツ自動生成
+
+on:
+  schedule:
+    # 月曜 9:00 JST(UTC 0:00) — 別荘・空き家リノベ
+    - cron: "0 0 * * 1"
+    # 木曜 9:00 JST(UTC 0:00) — アパート経営
+    - cron: "0 0 * * 4"
+  workflow_dispatch:
+    inputs:
+      vertical:
+        description: "生成するバーティカル(vacation-homes / apartment-management)。空欄なら曜日から自動判定"
+        required: false
+        default: ""
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: チェックアウト
+        uses: actions/checkout@v4
+
+      - name: Node.jsセットアップ
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: バーティカルを決定
+        id: vertical
+        run: |
+          if [ -n "${{ github.event.inputs.vertical }}" ]; then
+            echo "name=${{ github.event.inputs.vertical }}" >> "$GITHUB_OUTPUT"
+          elif [ "${{ github.event.schedule }}" = "0 0 * * 1" ]; then
+            echo "name=vacation-homes" >> "$GITHUB_OUTPUT"
+          else
+            echo "name=apartment-management" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: 記事を生成
+        id: generate
+        env:
+          REINFOLIB_API_KEY: ${{ secrets.REINFOLIB_API_KEY }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
+        run: node scripts/run-scheduled.mjs ${{ steps.vertical.outputs.name }}
+
+      - name: 変更をコミット・プッシュ
+        if: steps.generate.outputs.generated == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add content/
+          git commit -m "自動生成: ${{ steps.vertical.outputs.name }} - ${{ steps.generate.outputs.cityName }}"
+          git push
+
+      - name: スキップ理由をサマリーに記録
+        if: steps.generate.outputs.generated != 'true'
+        run: |
+          echo "### ⚠ 記事は生成されませんでした" >> "$GITHUB_STEP_SUMMARY"
+          echo "バーティカル: ${{ steps.vertical.outputs.name }}" >> "$GITHUB_STEP_SUMMARY"
+          echo "キューが空、またはAPIエラーの可能性があります。content/queues/${{ steps.vertical.outputs.name }}.json を確認してください。" >> "$GITHUB_STEP_SUMMARY"
