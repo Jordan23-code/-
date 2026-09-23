@@ -496,14 +496,31 @@ ${lowEntryText}
   let res;
   let lastErrorText = "";
   for (let attempt = 1; attempt <= MAX_RETRIES; attempt++) {
-    res = await fetch(endpoint, {
-      method: "POST",
-      headers: { "content-type": "application/json" },
-      body: JSON.stringify({
-        contents: [{ role: "user", parts: [{ text: prompt }] }],
-        generationConfig: { responseMimeType: "application/json" },
-      }),
-    });
+    let networkError = null;
+    try {
+      res = await fetch(endpoint, {
+        method: "POST",
+        headers: { "content-type": "application/json" },
+        body: JSON.stringify({
+          contents: [{ role: "user", parts: [{ text: prompt }] }],
+          generationConfig: { responseMimeType: "application/json" },
+        }),
+      });
+    } catch (err) {
+      networkError = err;
+    }
+
+    if (networkError) {
+      if (attempt >= MAX_RETRIES) {
+        throw new Error(`Gemini APIへの接続に失敗しました: ${networkError.message}`);
+      }
+      const waitMs = 5000 * attempt; // 5秒, 10秒, 15秒...と待ち時間を延ばす
+      console.log(
+        `  ⚠ Gemini APIへの接続に失敗しました(${networkError.message})。${waitMs / 1000}秒待って再試行します (${attempt}/${MAX_RETRIES})...`
+      );
+      await sleep(waitMs);
+      continue;
+    }
 
     if (res.ok) break;
 
