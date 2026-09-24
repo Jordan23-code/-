@@ -1,8 +1,37 @@
 [
-  { "pref": "13", "prefName": "東京都", "city": "13205", "cityName": "青梅市", "year": "2024" },
-  { "pref": "13", "prefName": "東京都", "city": "13215", "cityName": "国立市", "year": "2024" },
-  { "pref": "13", "prefName": "東京都", "city": "13220", "cityName": "東大和市", "year": "2024" },
-  { "pref": "13", "prefName": "東京都", "city": "13223", "cityName": "武蔵村山市", "year": "2024" },
-  { "pref": "13", "prefName": "東京都", "city": "13224", "cityName": "多摩市", "year": "2024" },
-  { "pref": "13", "prefName": "東京都", "city": "13225", "cityName": "稲城市", "year": "2024" }
+  {
+    "pref": "13",
+    "prefName": "東京都",
+    "city": "13215",
+    "cityName": "国立市",
+    "year": "2024"
+  },
+  {
+    "pref": "13",
+    "prefName": "東京都",
+    "city": "13220",
+    "cityName": "東大和市",
+    "year": "2024"
+  },
+  {
+    "pref": "13",
+    "prefName": "東京都",
+    "city": "13223",
+    "cityName": "武蔵村山市",
+    "year": "2024"
+  },
+  {
+    "pref": "13",
+    "prefName": "東京都",
+    "city": "13224",
+    "cityName": "多摩市",
+    "year": "2024"
+  },
+  {
+    "pref": "13",
+    "prefName": "東京都",
+    "city": "13225",
+    "cityName": "稲城市",
+    "year": "2024"
+  }
 ]
