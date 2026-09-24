@@ -1,8 +1,37 @@
 [
-  { "pref": "12", "prefName": "千葉県", "city": "12234", "cityName": "南房総市", "year": "2024" },
-  { "pref": "12", "prefName": "千葉県", "city": "12223", "cityName": "鴨川市", "year": "2024" },
-  { "pref": "09", "prefName": "栃木県", "city": "09407", "cityName": "那須町", "year": "2024" },
-  { "pref": "10", "prefName": "群馬県", "city": "10449", "cityName": "みなかみ町", "year": "2024" },
-  { "pref": "13", "prefName": "東京都", "city": "13308", "cityName": "奥多摩町", "year": "2024" },
-  { "pref": "13", "prefName": "東京都", "city": "13307", "cityName": "檜原村", "year": "2024" }
+  {
+    "pref": "12",
+    "prefName": "千葉県",
+    "city": "12223",
+    "cityName": "鴨川市",
+    "year": "2024"
+  },
+  {
+    "pref": "09",
+    "prefName": "栃木県",
+    "city": "09407",
+    "cityName": "那須町",
+    "year": "2024"
+  },
+  {
+    "pref": "10",
+    "prefName": "群馬県",
+    "city": "10449",
+    "cityName": "みなかみ町",
+    "year": "2024"
+  },
+  {
+    "pref": "13",
+    "prefName": "東京都",
+    "city": "13308",
+    "cityName": "奥多摩町",
+    "year": "2024"
+  },
+  {
+    "pref": "13",
+    "prefName": "東京都",
+    "city": "13307",
+    "cityName": "檜原村",
+    "year": "2024"
+  }
 ]
