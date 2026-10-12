@@ -1,0 +1,308 @@
+{
+  "slug": "12223-2024",
+  "title": "【2024年千葉県鴨川市】格安で始めるセカンドハウス！空き家・別荘の不動産相場解説",
+  "prefecture": "千葉県",
+  "city": "鴨川市",
+  "cityCode": "12223",
+  "year": "2024",
+  "quarter": null,
+  "stats": {
+    "count": 87,
+    "avgTradePrice": 11178080,
+    "minTradePrice": 1000,
+    "maxTradePrice": 91000000,
+    "avgUnitPrice": 19312,
+    "sampleDistricts": [
+      "和泉",
+      "上",
+      "東町",
+      "天津",
+      "太海",
+      "横渚",
+      "四方木",
+      "来秀"
+    ]
+  },
+  "byType": {
+    "宅地(土地)": {
+      "count": 30,
+      "avgTradePrice": 7968333,
+      "minTradePrice": 50000,
+      "maxTradePrice": 30000000,
+      "avgUnitPrice": 19312,
+      "sampleDistricts": [
+        "和泉",
+        "東町",
+        "内浦",
+        "貝渚",
+        "西・東江見",
+        "太海",
+        "宮山",
+        "滑谷"
+      ]
+    },
+    "宅地(土地と建物)": {
+      "count": 29,
+      "avgTradePrice": 21665517,
+      "minTradePrice": 400000,
+      "maxTradePrice": 91000000,
+      "avgUnitPrice": null,
+      "sampleDistricts": [
+        "上",
+        "東町",
+        "横渚",
+        "来秀",
+        "広場",
+        "宮",
+        "滑谷",
+        "内浦"
+      ]
+    },
+    "林地": {
+      "count": 9,
+      "avgTradePrice": 269222,
+      "minTradePrice": 1000,
+      "maxTradePrice": 560000,
+      "avgUnitPrice": null,
+      "sampleDistricts": [
+        "天津",
+        "四方木",
+        "平塚",
+        "主基西",
+        "八色"
+      ]
+    },
+    "農地": {
+      "count": 9,
+      "avgTradePrice": 580000,
+      "minTradePrice": 40000,
+      "maxTradePrice": 2000000,
+      "avgUnitPrice": null,
+      "sampleDistricts": [
+        "太海",
+        "平塚",
+        "横尾",
+        "西町",
+        "坂東"
+      ]
+    },
+    "中古マンション等": {
+      "count": 10,
+      "avgTradePrice": 9750000,
+      "minTradePrice": 2800000,
+      "maxTradePrice": 25000000,
+      "avgUnitPrice": null,
+      "sampleDistricts": [
+        "東町",
+        "太海",
+        "前原",
+        "横渚",
+        "太海浜",
+        "江見東真門"
+      ]
+    }
+  },
+  "yieldSim": {
+    "targetType": "中古マンション等",
+    "avgTradePrice": 9750000,
+    "assumedMonthlyRent": 49000,
+    "annualRent": 588000,
+    "yieldPct": "6.0"
+  },
+  "districtRanking": [
+    {
+      "district": "東町",
+      "count": 10,
+      "avgTradePrice": 14550000
+    },
+    {
+      "district": "横渚",
+      "count": 7,
+      "avgTradePrice": 27828571
+    },
+    {
+      "district": "広場",
+      "count": 7,
+      "avgTradePrice": 24714286
+    },
+    {
+      "district": "天津",
+      "count": 5,
+      "avgTradePrice": 5980000
+    },
+    {
+      "district": "太海",
+      "count": 5,
+      "avgTradePrice": 19048000
+    },
+    {
+      "district": "四方木",
+      "count": 4,
+      "avgTradePrice": 365000
+    },
+    {
+      "district": "平塚",
+      "count": 4,
+      "avgTradePrice": 467500
+    },
+    {
+      "district": "内浦",
+      "count": 4,
+      "avgTradePrice": 11225000
+    }
+  ],
+  "ageBand": {
+    "築5年以内": {
+      "count": 4,
+      "avgTradePrice": 48000000,
+      "minTradePrice": 27000000,
+      "maxTradePrice": 91000000,
+      "avgUnitPrice": null,
+      "sampleDistricts": [
+        "広場",
+        "横渚",
+        "東町"
+      ]
+    },
+    "築6〜15年": {
+      "count": 3,
+      "avgTradePrice": 22333333,
+      "minTradePrice": 20000000,
+      "maxTradePrice": 26000000,
+      "avgUnitPrice": null,
+      "sampleDistricts": [
+        "来秀",
+        "広場",
+        "成川"
+      ]
+    },
+    "築16〜25年": {
+      "count": 5,
+      "avgTradePrice": 14540000,
+      "minTradePrice": 5700000,
+      "maxTradePrice": 24000000,
+      "avgUnitPrice": null,
+      "sampleDistricts": [
+        "西町",
+        "東町",
+        "天津",
+        "広場"
+      ]
+    },
+    "築26年以上": {
+      "count": 25,
+      "avgTradePrice": 13884000,
+      "minTradePrice": 400000,
+      "maxTradePrice": 83000000,
+      "avgUnitPrice": null,
+      "sampleDistricts": [
+        "上",
+        "東町",
+        "横渚",
+        "宮",
+        "太海",
+        "前原",
+        "滑谷",
+        "広場"
+      ]
+    }
+  },
+  "areaBand": {
+    "〜30㎡(ワンルーム)": {
+      "count": 1,
+      "avgTradePrice": 2800000,
+      "minTradePrice": 2800000,
+      "maxTradePrice": 2800000,
+      "avgUnitPrice": null,
+      "sampleDistricts": [
+        "太海浜"
+      ]
+    },
+    "30〜50㎡(コンパクト)": {
+      "count": 5,
+      "avgTradePrice": 7280000,
+      "minTradePrice": 2800000,
+      "maxTradePrice": 12000000,
+      "avgUnitPrice": null,
+      "sampleDistricts": [
+        "太海",
+        "横渚",
+        "前原"
+      ]
+    },
+    "50〜80㎡(ファミリー)": {
+      "count": 6,
+      "avgTradePrice": 10333333,
+      "minTradePrice": 1700000,
+      "maxTradePrice": 25000000,
+      "avgUnitPrice": 21000,
+      "sampleDistricts": [
+        "貝渚",
+        "東町",
+        "前原",
+        "江見東真門",
+        "浜荻"
+      ]
+    },
+    "80㎡〜(広め)": {
+      "count": 75,
+      "avgTradePrice": 11617240,
+      "minTradePrice": 1000,
+      "maxTradePrice": 91000000,
+      "avgUnitPrice": 19254,
+      "sampleDistricts": [
+        "和泉",
+        "上",
+        "東町",
+        "天津",
+        "太海",
+        "横渚",
+        "四方木",
+        "来秀"
+      ]
+    }
+  },
+  "priceTrend": {
+    "trend": [
+      {
+        "year": 2021,
+        "count": 9,
+        "avgTradePrice": 6966667
+      },
+      {
+        "year": 2022,
+        "count": 10,
+        "avgTradePrice": 10190000
+      },
+      {
+        "year": 2023,
+        "count": 14,
+        "avgTradePrice": 19264286
+      },
+      {
+        "year": 2024,
+        "count": 10,
+        "avgTradePrice": 9750000
+      }
+    ],
+    "firstYear": 2021,
+    "lastYear": 2024,
+    "changePct": "40.0"
+  },
+  "lowEntry": {
+    "source": "面積帯",
+    "label": "80㎡〜(広め)",
+    "count": 75,
+    "avgTradePrice": 11617240
+  },
+  "heroImage": null,
+  "sections": {
+    "overview": "2024年の千葉県鴨川市における不動産取引データによると、全体で87件の取引があり、平均取引価格は1,118万円です。物件種別ごとの内訳を見ると、宅地(土地)が30件で平均797万円（㎡単価平均19,312円）、宅地(土地と建物)が29件で平均2,167万円となっています。また、中古マンション等は10件で平均975万円です。このほか、林地が9件（平均27万円）、農地が9件（平均58万円）取引されています。居住用やセカンドハウス用途となる建物付き物件やマンションと、土地単体・山林農地では価格帯に大きな開きがあることが公式データから分かります。",
+    "propertyTrend": "地区別の取引件数では東町が10件（平均1,455万円）で最も多く、次いで横渚が7件（平均2,783万円）、広場が7件（平均2,471万円）となっています。築年数帯別では、築26年以上の物件が25件（平均1,388万円）と取引の多くを占めており、築5年以内（4件・平均4,800万円）などの築浅物件と比べて取引数が豊富です。面積帯別では、80㎡〜(広め)が75件（平均1,162万円）と大半を占める傾向がみられます。なお、複数年の価格推移として、2021年から2024年にかけて、平均取引価格は+40.0%上昇している(年別推移: 2021年=697万円、2022年=1,019万円、2023年=1,926万円、2024年=975万円)という実情が示されています。",
+    "yieldSimulation": "鴨川市でセカンドハウスや投資用物件を検討する際の試算の一例です。対象種別「中古マンション等」の平均取引価格975万円を基に、仮に月額家賃を価格の0.5%(49,000円)と仮定すると、年間家賃収入は588,000円となり、表面利回りは約6.0%になる(588,000 ÷ 9,750,000 × 100 ≒ 6.0%)。このシミュレーションは一定の家賃想定に基づく試算であり、実際の賃貸運用時には空室リスクや維持管理費、リフォーム費用などを考慮する必要があります。",
+    "lowEntryPitch": "DIYリノベーションやセカンドハウスの拠点探しにおいて、購入時の初期費用を抑える視点は重要です。データによると、面積帯「80㎡〜(広め)」は75件の取引があり、平均取引価格は1,162万円と、他の区分より総投資額を抑えやすい水準になっている(利回り%が他区分より高いという意味ではなく、あくまで総額が低いという事実)。広めの物件を低価格で取得できれば、その分リノベ予算の計画が立てやすくなります。",
+    "agentComment": "千葉県鴨川市は築26年以上の物件や80㎡以上の物件取引が多く、平均取引価格は1,000万円前後となっています。購入総額を抑えてセカンドハウスやDIY拠点を探す方に適したエリアです。表面利回りの試算では概ね6%前後が目安ですが、これは一律の想定家賃に基づく参考値であり、エリア間の優劣を示すものではありません。また、別荘・セカンドハウス向けの物件は住宅ローンの対象外となる金融機関が多く、購入方法の確認が必要な点にもご注意ください。",
+    "beginnerTips": "鴨川市で空き家や別荘を検討する際は、いくつか確認すべきポイントがあります。海が近いエリアでは塩害による建物や設備の傷み具合に注意し、山間部では冬場の凍結対策や水道管の管理体制を確認することが大切です。また、最寄り駅や幹線道路からのアクセス状況、日々の買い物環境などの生活利便性もあらかじめ現地で把握しましょう。さらに、鴨川市が運営する空き家バンク制度や移住・定住支援制度を活用できる場合もあるため、購入検討の初期段階で自治体の情報もチェックしておくことをおすすめします。"
+  },
+  "generatedAt": "2026-10-12T00:09:26.101Z"
+}
