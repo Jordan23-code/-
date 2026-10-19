@@ -1,0 +1,289 @@
+{
+  "slug": "09407-2024",
+  "title": "栃木県那須町の空き家・別荘相場！格安物件で叶えるセカンドハウス",
+  "prefecture": "栃木県",
+  "city": "那須町",
+  "cityCode": "09407",
+  "year": "2024",
+  "quarter": null,
+  "stats": {
+    "count": 327,
+    "avgTradePrice": 7389456,
+    "minTradePrice": 1000,
+    "maxTradePrice": 330000000,
+    "avgUnitPrice": 3313,
+    "sampleDistricts": [
+      "大字芦野",
+      "大字大島",
+      "大字高久",
+      "大字寺子",
+      "大字豊原",
+      "大字伊王野",
+      "大字高久丙",
+      "大字湯本"
+    ]
+  },
+  "byType": {
+    "宅地(土地)": {
+      "count": 112,
+      "avgTradePrice": 2674598,
+      "minTradePrice": 1000,
+      "maxTradePrice": 33000000,
+      "avgUnitPrice": 3313,
+      "sampleDistricts": [
+        "大字芦野",
+        "大字大島",
+        "大字高久",
+        "大字寺子",
+        "大字豊原",
+        "大字高久丙",
+        "大字湯本",
+        "大字漆塚"
+      ]
+    },
+    "宅地(土地と建物)": {
+      "count": 135,
+      "avgTradePrice": 14655926,
+      "minTradePrice": 200000,
+      "maxTradePrice": 330000000,
+      "avgUnitPrice": null,
+      "sampleDistricts": [
+        "大字高久",
+        "大字豊原",
+        "大字高久丙",
+        "大字湯本",
+        "大字芦野",
+        "大字富岡",
+        "大字寺子"
+      ]
+    },
+    "農地": {
+      "count": 11,
+      "avgTradePrice": 420273,
+      "minTradePrice": 34000,
+      "maxTradePrice": 2000000,
+      "avgUnitPrice": null,
+      "sampleDistricts": [
+        "大字高久",
+        "大字伊王野",
+        "大字豊原",
+        "大字芦野",
+        "大字富岡",
+        "大字横岡"
+      ]
+    },
+    "林地": {
+      "count": 66,
+      "avgTradePrice": 1660970,
+      "minTradePrice": 1000,
+      "maxTradePrice": 27000000,
+      "avgUnitPrice": null,
+      "sampleDistricts": [
+        "大字高久",
+        "大字豊原",
+        "大字湯本",
+        "大字寺子",
+        "大字高久丙",
+        "大字稲沢",
+        "大字伊王野",
+        "大字富岡"
+      ]
+    },
+    "中古マンション等": {
+      "count": 3,
+      "avgTradePrice": 8000000,
+      "minTradePrice": 2000000,
+      "maxTradePrice": 16000000,
+      "avgUnitPrice": null,
+      "sampleDistricts": [
+        "大字高久丙",
+        "大字湯本"
+      ]
+    }
+  },
+  "yieldSim": {
+    "targetType": "中古マンション等",
+    "avgTradePrice": 8000000,
+    "assumedMonthlyRent": 40000,
+    "annualRent": 480000,
+    "yieldPct": "6.0"
+  },
+  "districtRanking": [
+    {
+      "district": "大字高久",
+      "count": 151,
+      "avgTradePrice": 9620563
+    },
+    {
+      "district": "大字高久丙",
+      "count": 82,
+      "avgTradePrice": 8764890
+    },
+    {
+      "district": "大字豊原",
+      "count": 49,
+      "avgTradePrice": 1323265
+    },
+    {
+      "district": "大字湯本",
+      "count": 18,
+      "avgTradePrice": 8156111
+    },
+    {
+      "district": "大字寺子",
+      "count": 7,
+      "avgTradePrice": 2521571
+    },
+    {
+      "district": "大字富岡",
+      "count": 6,
+      "avgTradePrice": 546833
+    },
+    {
+      "district": "大字伊王野",
+      "count": 5,
+      "avgTradePrice": 514600
+    },
+    {
+      "district": "大字芦野",
+      "count": 4,
+      "avgTradePrice": 1727500
+    }
+  ],
+  "ageBand": {
+    "築5年以内": {
+      "count": 4,
+      "avgTradePrice": 109125000,
+      "minTradePrice": 8500000,
+      "maxTradePrice": 330000000,
+      "avgUnitPrice": null,
+      "sampleDistricts": [
+        "大字高久"
+      ]
+    },
+    "築6〜15年": {
+      "count": 6,
+      "avgTradePrice": 21333333,
+      "minTradePrice": 14000000,
+      "maxTradePrice": 35000000,
+      "avgUnitPrice": null,
+      "sampleDistricts": [
+        "大字高久",
+        "大字高久丙",
+        "大字湯本"
+      ]
+    },
+    "築16〜25年": {
+      "count": 31,
+      "avgTradePrice": 14106452,
+      "minTradePrice": 1200000,
+      "maxTradePrice": 34000000,
+      "avgUnitPrice": null,
+      "sampleDistricts": [
+        "大字高久",
+        "大字豊原",
+        "大字高久丙",
+        "大字湯本",
+        "大字寺子"
+      ]
+    },
+    "築26年以上": {
+      "count": 68,
+      "avgTradePrice": 11066912,
+      "minTradePrice": 500000,
+      "maxTradePrice": 91000000,
+      "avgUnitPrice": null,
+      "sampleDistricts": [
+        "大字高久",
+        "大字高久丙",
+        "大字湯本",
+        "大字芦野",
+        "大字富岡",
+        "大字豊原",
+        "大字寺子"
+      ]
+    }
+  },
+  "areaBand": {
+    "〜30㎡(ワンルーム)": {
+      "count": 1,
+      "avgTradePrice": 2000000,
+      "minTradePrice": 2000000,
+      "maxTradePrice": 2000000,
+      "avgUnitPrice": null,
+      "sampleDistricts": [
+        "大字高久丙"
+      ]
+    },
+    "50〜80㎡(ファミリー)": {
+      "count": 1,
+      "avgTradePrice": 200000,
+      "minTradePrice": 200000,
+      "maxTradePrice": 200000,
+      "avgUnitPrice": 2900,
+      "sampleDistricts": [
+        "大字伊王野"
+      ]
+    },
+    "80㎡〜(広め)": {
+      "count": 325,
+      "avgTradePrice": 7428160,
+      "minTradePrice": 1000,
+      "maxTradePrice": 330000000,
+      "avgUnitPrice": 3317,
+      "sampleDistricts": [
+        "大字芦野",
+        "大字大島",
+        "大字高久",
+        "大字寺子",
+        "大字豊原",
+        "大字伊王野",
+        "大字高久丙",
+        "大字湯本"
+      ]
+    }
+  },
+  "priceTrend": {
+    "trend": [
+      {
+        "year": 2021,
+        "count": 2,
+        "avgTradePrice": 6100000
+      },
+      {
+        "year": 2022,
+        "count": 1,
+        "avgTradePrice": 5600000
+      },
+      {
+        "year": 2023,
+        "count": 2,
+        "avgTradePrice": 3350000
+      },
+      {
+        "year": 2024,
+        "count": 3,
+        "avgTradePrice": 8000000
+      }
+    ],
+    "firstYear": 2021,
+    "lastYear": 2024,
+    "changePct": "31.1"
+  },
+  "lowEntry": {
+    "source": "面積帯",
+    "label": "80㎡〜(広め)",
+    "count": 325,
+    "avgTradePrice": 7428160
+  },
+  "heroImage": null,
+  "sections": {
+    "overview": "2024年の栃木県那須町における不動産取引データによると、全体取引件数は327件、平均取引価格は739万円です。物件種別ごとに見ると、宅地(土地と建物)が135件で平均1,466万円、宅地(土地)が112件で平均267万円となっています。また、林地は66件で平均166万円、農地は11件で平均42万円、中古マンション等は3件で平均800万円です。なお、宅地(土地と建物)、林地、農地、中古マンション等では㎡単価平均データが記録されていません。種別によって取引規模や平均価格に明確な違いが見られます。",
+    "propertyTrend": "人気地区ランキングでは、1位の大字高久が151件(平均962万円)、2位の大字高久丙が82件(平均876万円)、3位の大字豊原が49件(平均132万円)となっています。築年数帯別では、築26年以上が68件(平均1,107万円)と多くを占める一方、築5年以内は4件(平均10,913万円)です。面積帯では80㎡〜(広め)が325件(平均743万円)と主流です。複数年の価格推移を見ると、2021年から2024年にかけて、平均取引価格は+31.1%上昇している(年別推移: 2021年=610万円、2022年=560万円、2023年=335万円、2024年=800万円)。那須町では広い面積や特定の地区に取引が集中しています。",
+    "yieldSimulation": "本データに基づく利回り試算として、以下の例が挙げられます。対象種別「中古マンション等」の平均取引価格800万円を基に、仮に月額家賃を価格の0.5%(40,000円)と仮定すると、年間家賃収入は480,000円となり、表面利回りは約6.0%になる(480,000 ÷ 8,000,000 × 100 ≒ 6.0%)。この計算はあくまで賃貸に出す場合の一例であり、実際の収益や稼働を保証するものではありません。セカンドハウス運用や投資検討時の参考指標として活用できます。",
+    "lowEntryPitch": "総額を抑えてセカンドハウスの購入やDIYリノベーションを検討する方にとって、初期の購入費用は重要です。面積帯「80㎡〜(広め)」は325件の取引があり、平均取引価格は743万円と、他の区分より総投資額を抑えやすい水準になっている(利回り%が他区分より高いという意味ではなく、あくまで総額が低いという事実)。購入時の総額を低く抑えることで、活用の選択肢を広げることが可能です。",
+    "agentComment": "栃木県那須町の取引は大字高久や大字高久丙を中心とした広めの物件が主流です。初期費用を抑えてセカンドハウスを検討する方に適したエリアとなっています。表面利回りの試算では概ね6%前後が目安ですが、これは一律の想定家賃に基づく参考値であり、エリア間の優劣を示すものではありません。また、別荘・セカンドハウス向けの物件は住宅ローンの対象外となる金融機関が多く、購入方法の確認が必要な点にもご注意ください。",
+    "beginnerTips": "那須町で空き家や別荘の購入を検討する際は、寒冷地ならではの環境対策が重要です。冬場の積雪や水道管の凍結防止対策、建物の管理状態の確認は欠かせません。また、最寄り駅や幹線道路からのアクセス状況、管理費の有無も事前に把握しておく必要があります。さらに自治体の空き家バンク制度や補助金の有無などの最新情報を確認し、地域の施策を活用することがポイントです。現地インフラや利用頻度を考慮した事前調査を推奨します。"
+  },
+  "generatedAt": "2026-10-19T02:35:59.482Z"
+}
