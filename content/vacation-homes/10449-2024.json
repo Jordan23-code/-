@@ -1,0 +1,262 @@
+{
+  "slug": "10449-2024",
+  "title": "みなかみ町の空き家・格安別荘相場を解説！セカンドハウスやDIY活用に向けた取引データ",
+  "prefecture": "群馬県",
+  "city": "みなかみ町",
+  "cityCode": "10449",
+  "year": "2024",
+  "quarter": null,
+  "stats": {
+    "count": 45,
+    "avgTradePrice": 2674267,
+    "minTradePrice": 2000,
+    "maxTradePrice": 15000000,
+    "avgUnitPrice": 9372,
+    "sampleDistricts": [
+      "政所",
+      "湯桧曽",
+      "上津",
+      "新巻",
+      "月夜野",
+      "川上",
+      "後閑",
+      "布施"
+    ]
+  },
+  "byType": {
+    "宅地(土地)": {
+      "count": 17,
+      "avgTradePrice": 3518353,
+      "minTradePrice": 82000,
+      "maxTradePrice": 15000000,
+      "avgUnitPrice": 9372,
+      "sampleDistricts": [
+        "政所",
+        "新巻",
+        "月夜野",
+        "川上",
+        "後閑",
+        "布施",
+        "藤原",
+        "湯原"
+      ]
+    },
+    "林地": {
+      "count": 4,
+      "avgTradePrice": 17500,
+      "minTradePrice": 2000,
+      "maxTradePrice": 50000,
+      "avgUnitPrice": null,
+      "sampleDistricts": [
+        "湯桧曽",
+        "藤原",
+        "上津"
+      ]
+    },
+    "宅地(土地と建物)": {
+      "count": 12,
+      "avgTradePrice": 3775000,
+      "minTradePrice": 200000,
+      "maxTradePrice": 10000000,
+      "avgUnitPrice": null,
+      "sampleDistricts": [
+        "上津",
+        "湯原",
+        "阿能川",
+        "上牧",
+        "月夜野",
+        "小仁田",
+        "藤原",
+        "大穴"
+      ]
+    },
+    "中古マンション等": {
+      "count": 5,
+      "avgTradePrice": 2420000,
+      "minTradePrice": 1300000,
+      "maxTradePrice": 5500000,
+      "avgUnitPrice": null,
+      "sampleDistricts": [
+        "石倉",
+        "小仁田",
+        "湯原"
+      ]
+    },
+    "農地": {
+      "count": 7,
+      "avgTradePrice": 437143,
+      "minTradePrice": 100000,
+      "maxTradePrice": 900000,
+      "avgUnitPrice": null,
+      "sampleDistricts": [
+        "須川",
+        "布施",
+        "東峰",
+        "上津",
+        "新巻"
+      ]
+    }
+  },
+  "yieldSim": {
+    "targetType": "中古マンション等",
+    "avgTradePrice": 2420000,
+    "assumedMonthlyRent": 12000,
+    "annualRent": 144000,
+    "yieldPct": "6.0"
+  },
+  "districtRanking": [
+    {
+      "district": "後閑",
+      "count": 4,
+      "avgTradePrice": 4947500
+    },
+    {
+      "district": "藤原",
+      "count": 4,
+      "avgTradePrice": 1977500
+    },
+    {
+      "district": "上津",
+      "count": 3,
+      "avgTradePrice": 2090000
+    },
+    {
+      "district": "新巻",
+      "count": 3,
+      "avgTradePrice": 360667
+    },
+    {
+      "district": "月夜野",
+      "count": 3,
+      "avgTradePrice": 5600000
+    },
+    {
+      "district": "布施",
+      "count": 3,
+      "avgTradePrice": 433333
+    },
+    {
+      "district": "石倉",
+      "count": 3,
+      "avgTradePrice": 1766667
+    },
+    {
+      "district": "湯原",
+      "count": 3,
+      "avgTradePrice": 1963333
+    }
+  ],
+  "ageBand": {
+    "築16〜25年": {
+      "count": 1,
+      "avgTradePrice": 6500000,
+      "minTradePrice": 6500000,
+      "maxTradePrice": 6500000,
+      "avgUnitPrice": null,
+      "sampleDistricts": [
+        "上牧"
+      ]
+    },
+    "築26年以上": {
+      "count": 12,
+      "avgTradePrice": 3475000,
+      "minTradePrice": 1000000,
+      "maxTradePrice": 10000000,
+      "avgUnitPrice": null,
+      "sampleDistricts": [
+        "石倉",
+        "阿能川",
+        "小仁田",
+        "月夜野",
+        "藤原",
+        "大穴",
+        "下津",
+        "谷川"
+      ]
+    }
+  },
+  "areaBand": {
+    "30〜50㎡(コンパクト)": {
+      "count": 1,
+      "avgTradePrice": 5500000,
+      "minTradePrice": 5500000,
+      "maxTradePrice": 5500000,
+      "avgUnitPrice": null,
+      "sampleDistricts": [
+        "湯原"
+      ]
+    },
+    "50〜80㎡(ファミリー)": {
+      "count": 4,
+      "avgTradePrice": 1800000,
+      "minTradePrice": 1300000,
+      "maxTradePrice": 2300000,
+      "avgUnitPrice": 26000,
+      "sampleDistricts": [
+        "後閑",
+        "小仁田",
+        "石倉"
+      ]
+    },
+    "80㎡〜(広め)": {
+      "count": 40,
+      "avgTradePrice": 2691050,
+      "minTradePrice": 2000,
+      "maxTradePrice": 15000000,
+      "avgUnitPrice": 8333,
+      "sampleDistricts": [
+        "政所",
+        "湯桧曽",
+        "上津",
+        "新巻",
+        "月夜野",
+        "川上",
+        "布施",
+        "石倉"
+      ]
+    }
+  },
+  "priceTrend": {
+    "trend": [
+      {
+        "year": 2021,
+        "count": 21,
+        "avgTradePrice": 4797619
+      },
+      {
+        "year": 2022,
+        "count": 1,
+        "avgTradePrice": 2600000
+      },
+      {
+        "year": 2023,
+        "count": 1,
+        "avgTradePrice": 1000000
+      },
+      {
+        "year": 2024,
+        "count": 5,
+        "avgTradePrice": 2420000
+      }
+    ],
+    "firstYear": 2021,
+    "lastYear": 2024,
+    "changePct": "-49.6"
+  },
+  "lowEntry": {
+    "source": "面積帯",
+    "label": "80㎡〜(広め)",
+    "count": 40,
+    "avgTradePrice": 2691050
+  },
+  "heroImage": null,
+  "sections": {
+    "overview": "2024年の群馬県みなかみ町における不動産取引データによると、全体の取引件数は45件、平均取引価格は267万円となっています。物件種別ごとの内訳を見ると、最も件数が多いのは宅地(土地)の17件（平均352万円）で、次いで宅地(土地と建物)が12件（平均378万円）取引されています。また、農地が7件（平均44万円）、中古マンション等が5件（平均242万円）、林地が4件（平均2万円）となっています。種別によって平均価格には差があり、土地・建物付き物件やリゾートマンション、農地や林地まで多様な種別が市場で取引されていることが公式データから読み取れます。",
+    "propertyTrend": "取引の具体的な傾向上、地区別では後閑や藤原（各4件）が上位となっており、上津、新巻、月夜野、布施、石倉、湯原（各3件）などの地区で取引が確認されています。築年数帯では築26年以上が12件（平均348万円）と多くを占め、築16〜25年は1件（平均650万円）となっています。面積帯別では80㎡〜(広め)が40件（平均269万円）と大半を占めており、50〜80㎡(ファミリー)は4件（平均180万円）、30〜50㎡(コンパクト)は1件（平均550万円）です。複数年の価格推移を見ると、2021年から2024年にかけて、平均取引価格は-49.6%下落している(年別推移: 2021年=480万円、2022年=260万円、2023年=100万円、2024年=242万円)。",
+    "yieldSimulation": "将来的な賃貸活用や収益シミュレーションの参考として、特定のデータに基づく一例をご紹介します。対象種別「中古マンション等」の平均取引価格242万円を基に、仮に月額家賃を価格の0.5%(12,000円)と仮定すると、年間家賃収入は144,000円となり、表面利回りは約6.0%になる(144,000 ÷ 2,420,000 × 100 ≒ 6.0%)。なお、この計算は一定の仮定に基づく試算であり、実際の賃貸需要や将来の家賃収入を保証するものではありません。",
+    "lowEntryPitch": "初期の購入費用を抑えてセカンドハウス所有やDIYリノベーションを始めたい方にとって、物件の総額は重要な指標です。面積帯「80㎡〜(広め)」は40件の取引があり、平均取引価格は269万円と、他の区分より総投資額を抑えやすい水準になっている(利回り%が他区分より高いという意味ではなく、あくまで総額が低いという事実)。購入価格を低く抑えることで、趣味空間づくりや拠点構築を検討しやすくなります。",
+    "agentComment": "みなかみエリアは平均取引価格が267万円となっており、広めの物件を中心に総額を抑えた取引が主流です。セカンドハウスやDIYの拠点として購入をご検討される方には選択肢の一つとなります。表面利回りの試算では概ね6%前後が目安ですが、これは一律の想定家賃に基づく参考値であり、エリア間の優劣を示すものではありません。また、別荘・セカンドハウス向けの物件は住宅ローンの対象外となる金融機関が多く、購入方法の確認が必要な点にもご注意ください。",
+    "beginnerTips": "みなかみ町で空き家や別荘を検討する際は、寒冷地特有の住環境に注意が必要です。冬場の積雪量や路面凍結状況、水道管の凍結防止対策や管理状態については事前にしっかり確認しましょう。また、主要駅や幹線道路からのアクセス環境も重要です。さらに、自治体が運営する空き家バンク制度や補助金の有無、利用条件について確認することをおすすめします。現地での維持管理コストも含めて総合的に確認することが大切です。"
+  },
+  "generatedAt": "2026-10-26T02:30:54.839Z"
+}
